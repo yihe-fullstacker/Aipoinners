@@ -1,0 +1,72 @@
+spring:
+  application:
+    name: identity-service
+  # 数据库配置
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:}
+    username: ${SPRING_DATASOURCE_USERNAME:}
+    password: ${SPRING_DATASOURCE_PASSWORD:}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 5
+      idle-timeout: 300000
+      max-lifetime: 1200000
+      connection-timeout: 30000
+  # JPA 配置
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: false
+        jdbc:
+          batch_size: 20
+        order_inserts: true
+        order_updates: true
+  # Nacos 服务注册
+  cloud:
+    nacos:
+      server-addr: ${NACOS_SERVER_ADDR:}
+      discovery:
+        server-addr: ${spring.cloud.nacos.server-addr}
+        register-enabled: true
+
+# 服务端口
+server:
+  port: 8081
+
+# JWT 配置
+jwt:
+  secret: ${JWT_SECRET:}
+  expiration: 86400000
+
+# 阿里云短信配置
+aliyun:
+  accessKeyId: ${ALIYUN_ACCESS_KEY_ID:}
+  accessKeySecret: ${ALIYUN_ACCESS_KEY_SECRET:}
+  regionId: ${ALIYUN_REGION_ID:}
+  signName: ${ALIYUN_SIGN_NAME:}
+  templateCode: ${ALIYUN_TEMPLATE_CODE:}
+  sms:
+    codeType: 1
+    codeLength: 6
+    validTime: 300
+    interval: 60
+
+# 监控端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+  endpoint:
+    health:
+      show-details: always
+
+# 日志格式
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%X{traceId:-}] [%thread] %logger{36} - %msg%n"

@@ -1,0 +1,22 @@
+﻿{
+  "name": "browser-use",
+  "version": "1.0.0",
+  "description": "Browser automation and computer-use toolkit for Codex. Enables web browsing, page interaction, form filling, screenshot capture, and Chrome extension integration via Playwright.",
+  "author": {
+    "name": "Codex"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Browser Use",
+    "shortDescription": "Browser automation and computer-use for Codex",
+    "longDescription": "Full browser automation toolkit with Playwright engine + Chrome extension. Navigate websites, extract content, click elements, fill forms, take screenshots, and interact with the user\'s current Chrome browser session.",
+    "developerName": "Codex",
+    "category": "Developer Tools",
+    "capabilities": ["Read", "Write", "Interactive"],
+    "defaultPrompt": [
+      "Use browser automation to help me research this topic",
+      "Navigate to a URL and summarize the page content",
+      "Help me fill out this web form"
+    ]
+  }
+}

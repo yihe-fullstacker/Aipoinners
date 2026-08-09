@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: medical-gateway  # ?????????Nacos??
+  cloud:
+    nacos:
+      server-addr: ${NACOS_SERVER_ADDR:192.168.192.101:8848}
+      discovery:
+        server-addr: ${spring.cloud.nacos.server-addr}
+        register-enabled: true
+      config:
+        file-extension: yaml  # ???????Nacos?yaml??
+        refresh-enabled: true # ??????
+
+server:
+  port: 8080
+
+# ??????????????????
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus,gateway
+  endpoint:
+    health:
+      show-details: always
+
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%X{traceId:-}] [%thread] %logger{36} - %msg%n"
+

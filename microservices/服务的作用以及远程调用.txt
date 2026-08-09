@@ -1,0 +1,55 @@
+microservices/
+├── medical-common/      ✅ 公共模块
+├── medical-core-base/   ✅ 数据模块
+├── service-registry/    ✅ 注册中心
+├── identity-service/    ✅ 身份服务
+├── consultation-service/✅ 问诊服务
+├── imaging-service/     ✅ 影像服务
+├── assistant-service/   ✅ 助手服务
+└── pom.xml              ✅ 父工程
+
+远程调用：
+二、硬编码 vs OpenFeign 对比（直接给结论）
+表格
+对比项	    RestTemplate（硬编码）	                OpenFeign（声明式调用）
+代码风格	    写死 URL、参数、请求方式，模板代码多	        用接口注解声明，像调用本地方法一样写代码
+服务地址依赖	硬编码 IP + 端口，服务改端口 / 地址必须全改	依赖注册中心服务名，不用写死地址，动态发现
+负载均衡	    需自己配置（配合 LoadBalancer），手动实现	    内置负载均衡，自动分发请求到多个实例
+可读性	    每个调用都要拼 URL，维护成本高	            接口 + 注解，一眼就能看懂调用的服务和接口
+适用场景	    简单测试、非微服务项目	                    微服务架构，多服务频繁调用的场景
+推荐度	    ❌ 不推荐微服务使用	                    ✅ 微服务标准推荐
+
+该代码块中存在的调用：
+1. consultation-service - Python AI服务调用
+文件: PythonAIService.java
+关键代码:
+L33: @Value("${python.ai.service.url:http://127.0.0.1:5000}")
+L41-46: 手动创建 RestTemplate
+L70: restTemplate.exchange(getBaseUrl() + endpoint, ...)
+2. imaging-service - Python AI服务调用
+文件: PythonAIService.java
+关键代码:
+L40: @Value("${python.ai.service.url:http://127.0.0.1:5000}")
+L53-57: 手动创建 RestTemplate
+L109: restTemplate.exchange(getBaseUrl() + endpoint, ...)
+L169: forwardJsonRequest 方法
+3. imaging-service - DeepSeek API调用
+文件: DeepSeekService.java
+说明: 使用硬编码配置的DeepSeek API地址
+4. assistant-service - 阿里云通义千问API调用
+文件: SmartQaService.java
+关键代码:
+L58-71: 配置API Key和URL
+L282: executeMultimodalCompletion 方法
+L297: restTemplate.postForEntity(url, entity, String.class)
+L502: HttpURLConnection 原生调用用于流式响应
+5. assistant-service - Dify工作流调用
+文件: DifyWorkflowService.java
+关键代码:
+L36-39: 配置Dify URL和API Key
+L82: webClient.post().uri(baseUrl)...
+使用 WebClient 进行响应式调用
+6. assistant-service - 百度AI搜索调用
+文件: WebSearchTool.java
+说明: 使用硬编码配置的百度千帆搜索API
+这几块都不是微服务之间的调用，只能使用手动调用，不能使用OpenFeign这个针对的是微服务之间的远程调用

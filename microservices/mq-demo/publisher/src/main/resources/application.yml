@@ -1,0 +1,19 @@
+logging:
+  pattern:
+    dateformat: MM-dd HH:mm:ss:SSS
+spring:
+  rabbitmq:
+    host: 192.168.192.101 # 你的虚拟机IP
+    port: 5672 # 端口
+    virtual-host: /hmall # 虚拟主机
+    username: hmall # 用户名
+    password: ${RABBITMQ_PASSWORD:}
+    connection-timeout: 1s
+    template:
+      mandatory: true
+      retry:
+        enabled:  true
+        multiplier: 2
+        max-attempts: 3
+    publisher-confirm-type: correlated
+    publisher-returns: true

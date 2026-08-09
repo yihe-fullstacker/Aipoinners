@@ -1,0 +1,21 @@
+# 服务名
+spring:
+  application:
+    name: assistant-service
+
+  # Nacos 配置中心
+  cloud:
+    nacos:
+      config:
+        # Nacos 地址
+        server-addr: 192.168.192.101:8848
+        file-extension: yaml
+        # 共享配置（多个）,使用的是nacos里面的配置文件
+        shared-configs:
+          - data-id: common.yaml  #公共配置
+            group: DEFAULT_GROUP
+            refresh: true
+          - data-id: ai-common.yaml  #AI服务配置
+            group: DEFAULT_GROUP
+            refresh: true
+          - data-id: shared-seta.yaml

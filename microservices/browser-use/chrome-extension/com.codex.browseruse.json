@@ -1,0 +1,11 @@
+﻿// Native messaging host manifest for Chrome extension
+// This allows the Chrome extension to communicate with the browser-use server
+{
+  "name": "com.codex.browseruse",
+  "description": "Bridge between Codex Browser Use extension and the browser-use server",
+  "path": "browser-use-server.bat",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://*/"
+  ]
+}

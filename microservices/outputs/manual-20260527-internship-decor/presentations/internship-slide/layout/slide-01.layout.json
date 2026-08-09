@@ -1,0 +1,3150 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/2z8wcu",
+    "id": "2z8wcu",
+    "slide": 1,
+    "layoutId": "5c7ea49a-c177-43e1-a328-88ea0792571c",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "abc55957-e2fd-47c1-aac1-8b06fe4e0c17",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Microsoft YaHei",
+      "Microsoft YaHei UI",
+      "SimSun"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "5c7ea49a-c177-43e1-a328-88ea0792571c",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "abc55957-e2fd-47c1-aac1-8b06fe4e0c17",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "abc55957-e2fd-47c1-aac1-8b06fe4e0c17",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/58z25kb6",
+      "id": "1",
+      "name": "background",
+      "bbox": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "geometry": "rect",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yhgn29gr",
+      "id": "2",
+      "name": "background-soft-layer",
+      "bbox": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "geometry": "rect",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n29gr2p8",
+      "id": "3",
+      "name": "background-cloud",
+      "bbox": [
+        760,
+        65,
+        325,
+        96
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(255, 255, 255, 0.26667)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gbq1oryt",
+      "id": "4",
+      "name": "background-cloud",
+      "bbox": [
+        1074,
+        59,
+        290,
+        86
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(255, 255, 255, 0.21176)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5wjudg7a",
+      "id": "5",
+      "name": "background-cloud",
+      "bbox": [
+        470,
+        76,
+        240,
+        70
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(255, 255, 255, 0.20392)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y90je9cv",
+      "id": "6",
+      "name": "background-grass",
+      "bbox": [
+        10,
+        652,
+        24,
+        -148
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(127, 175, 105, 0.53333)",
+      "lineWidth": 1
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nuxc3ylc",
+      "id": "7",
+      "name": "background-grass",
+      "bbox": [
+        88,
+        641,
+        24,
+        -164
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(127, 175, 105, 0.53333)",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cbulwval",
+      "id": "8",
+      "name": "background-grass",
+      "bbox": [
+        166,
+        630,
+        24,
+        -180
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(127, 175, 105, 0.53333)",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5sneloj2",
+      "id": "9",
+      "name": "background-grass",
+      "bbox": [
+        244,
+        619,
+        24,
+        -196
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(127, 175, 105, 0.53333)",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tcj6tova",
+      "id": "10",
+      "name": "background-grass",
+      "bbox": [
+        322,
+        608,
+        24,
+        -148
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(127, 175, 105, 0.53333)",
+      "lineWidth": 1
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0rqd4vmt",
+      "id": "11",
+      "name": "background-grass",
+      "bbox": [
+        400,
+        652,
+        24,
+        -164
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(127, 175, 105, 0.53333)",
+      "lineWidth": 1
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b6xkf6dc",
+      "id": "12",
+      "name": "background-grass",
+      "bbox": [
+        478,
+        641,
+        24,
+        -180
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(127, 175, 105, 0.53333)",
+      "lineWidth": 1
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/il0rqd4v",
+      "id": "13",
+      "name": "background-grass",
+      "bbox": [
+        556,
+        630,
+        24,
+        -196
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(127, 175, 105, 0.53333)",
+      "lineWidth": 1
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t47y1kre",
+      "id": "14",
+      "name": "background-grass",
+      "bbox": [
+        634,
+        619,
+        24,
+        -148
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(127, 175, 105, 0.53333)",
+      "lineWidth": 1
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0je9cvix",
+      "id": "15",
+      "name": "background-grass",
+      "bbox": [
+        712,
+        608,
+        24,
+        -164
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(127, 175, 105, 0.53333)",
+      "lineWidth": 1
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/byhgn29g",
+      "id": "16",
+      "name": "background-grass",
+      "bbox": [
+        790,
+        652,
+        24,
+        -180
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(127, 175, 105, 0.53333)",
+      "lineWidth": 1
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/idonyd0z",
+      "id": "17",
+      "name": "background-grass",
+      "bbox": [
+        868,
+        641,
+        24,
+        -196
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(127, 175, 105, 0.53333)",
+      "lineWidth": 1
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p0bi9s36",
+      "id": "18",
+      "name": "background-grass",
+      "bbox": [
+        946,
+        630,
+        24,
+        -148
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(127, 175, 105, 0.53333)",
+      "lineWidth": 1
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0fepkzup",
+      "id": "19",
+      "name": "background-grass",
+      "bbox": [
+        1024,
+        619,
+        24,
+        -164
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(127, 175, 105, 0.53333)",
+      "lineWidth": 1
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cbulwval",
+      "id": "20",
+      "name": "background-grass",
+      "bbox": [
+        1102,
+        608,
+        24,
+        -180
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(127, 175, 105, 0.53333)",
+      "lineWidth": 1
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5sneloj2",
+      "id": "21",
+      "name": "background-grass",
+      "bbox": [
+        1180,
+        652,
+        24,
+        -196
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(127, 175, 105, 0.53333)",
+      "lineWidth": 1
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u54zidon",
+      "id": "22",
+      "name": "background-grass",
+      "bbox": [
+        1258,
+        641,
+        24,
+        -148
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(127, 175, 105, 0.53333)",
+      "lineWidth": 1
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nqxs72x4",
+      "id": "23",
+      "name": "background-grass",
+      "bbox": [
+        1336,
+        630,
+        24,
+        -164
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(127, 175, 105, 0.53333)",
+      "lineWidth": 1
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/czed8v6p",
+      "id": "24",
+      "name": "background-grass",
+      "bbox": [
+        1414,
+        619,
+        24,
+        -180
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(127, 175, 105, 0.53333)",
+      "lineWidth": 1
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5kb6xkf6",
+      "id": "25",
+      "name": "background-grass",
+      "bbox": [
+        1492,
+        608,
+        24,
+        -196
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(127, 175, 105, 0.53333)",
+      "lineWidth": 1
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ytsvu9kn",
+      "id": "26",
+      "name": "background-grass",
+      "bbox": [
+        1570,
+        652,
+        24,
+        -148
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(127, 175, 105, 0.53333)",
+      "lineWidth": 1
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/neloj2t8",
+      "id": "27",
+      "name": "bottom-green-wave",
+      "bbox": [
+        0,
+        822,
+        1600,
+        78
+      ],
+      "geometry": "rect",
+      "fillColor": "#67A83A",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gn29gr2p",
+      "id": "28",
+      "name": "bottom-deep-wave",
+      "bbox": [
+        682,
+        836,
+        918,
+        64
+      ],
+      "geometry": "rect",
+      "fillColor": "#16975F",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/58z25kb6",
+      "id": "29",
+      "name": "bottom-white-wave",
+      "bbox": [
+        0,
+        823,
+        1600,
+        32
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#FFFFFF",
+      "lineWidth": 3
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z25kb6xk",
+      "id": "30",
+      "bbox": [
+        73,
+        18,
+        240,
+        66
+      ],
+      "geometry": "rect",
+      "text": "实习经历",
+      "textPreview": "实习经历",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 48,
+        "typeface": "Microsoft YaHei UI",
+        "color": "#5FA439",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "实习经历"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "实习经历",
+          "resolvedTextStyle": {
+            "fontSize": 48,
+            "typeface": "Microsoft YaHei UI",
+            "color": "#5FA439",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "实习经历",
+              "fontSize": 48,
+              "typeface": "Microsoft YaHei UI",
+              "color": "#5FA439",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6hcrmhk3",
+      "id": "31",
+      "name": "title-underline",
+      "bbox": [
+        59,
+        88,
+        441,
+        0
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#006D43",
+      "lineWidth": 4
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d8v6psfi",
+      "id": "32",
+      "name": "decor-title-glow",
+      "bbox": [
+        18,
+        116,
+        210,
+        3
+      ],
+      "geometry": "roundRect",
+      "fillColor": "rgba(120, 185, 87, 0.33333)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 33,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/onyd0z61",
+      "id": "33",
+      "name": "decor-top-rule",
+      "bbox": [
+        1052,
+        103,
+        174,
+        3
+      ],
+      "geometry": "roundRect",
+      "fillColor": "rgba(120, 185, 87, 0.33333)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 34,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vahoza1g",
+      "id": "34",
+      "name": "decor-corner-arc",
+      "bbox": [
+        1230,
+        126,
+        48,
+        48
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(167, 217, 138, 0.2)",
+      "lineColor": "rgba(110, 173, 79, 0.33333)",
+      "lineWidth": 1
+    },
+    {
+      "order": 35,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6tovahoz",
+      "id": "35",
+      "name": "decor-bottom-arc",
+      "bbox": [
+        1019,
+        575,
+        100,
+        100
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(138, 205, 114, 0.2)",
+      "lineColor": "rgba(110, 173, 79, 0.4)",
+      "lineWidth": 1
+    },
+    {
+      "order": 36,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dg7adsji",
+      "id": "36",
+      "name": "decor-leaf",
+      "bbox": [
+        112,
+        106,
+        44,
+        16
+      ],
+      "rotation": -18,
+      "geometry": "ellipse",
+      "fillColor": "rgba(203, 232, 191, 0.4)",
+      "lineColor": "rgba(125, 186, 91, 0.4)",
+      "lineWidth": 1
+    },
+    {
+      "order": 37,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ovahoza1",
+      "id": "37",
+      "name": "decor-leaf-vein",
+      "bbox": [
+        122.56,
+        114,
+        22.88,
+        0
+      ],
+      "rotation": -18,
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(125, 186, 91, 0.6)",
+      "lineWidth": 1
+    },
+    {
+      "order": 38,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vmtwra5g",
+      "id": "38",
+      "name": "decor-leaf",
+      "bbox": [
+        473,
+        117,
+        36,
+        13
+      ],
+      "rotation": 22,
+      "geometry": "ellipse",
+      "fillColor": "rgba(203, 232, 191, 0.4)",
+      "lineColor": "rgba(125, 186, 91, 0.4)",
+      "lineWidth": 1
+    },
+    {
+      "order": 39,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/61032lsz",
+      "id": "39",
+      "name": "decor-leaf-vein",
+      "bbox": [
+        481.64,
+        123.5,
+        18.72,
+        0
+      ],
+      "rotation": 22,
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(125, 186, 91, 0.6)",
+      "lineWidth": 1
+    },
+    {
+      "order": 40,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2hwfyxob",
+      "id": "40",
+      "name": "decor-leaf",
+      "bbox": [
+        1018,
+        192,
+        42,
+        15
+      ],
+      "rotation": -34,
+      "geometry": "ellipse",
+      "fillColor": "rgba(203, 232, 191, 0.4)",
+      "lineColor": "rgba(125, 186, 91, 0.4)",
+      "lineWidth": 1
+    },
+    {
+      "order": 41,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r2p8nqxs",
+      "id": "41",
+      "name": "decor-leaf-vein",
+      "bbox": [
+        1028.08,
+        199.5,
+        21.84,
+        0
+      ],
+      "rotation": -34,
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(125, 186, 91, 0.6)",
+      "lineWidth": 1
+    },
+    {
+      "order": 42,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kjm1cfa9",
+      "id": "42",
+      "name": "decor-leaf",
+      "bbox": [
+        1436,
+        110,
+        52,
+        18
+      ],
+      "rotation": 28,
+      "geometry": "ellipse",
+      "fillColor": "rgba(203, 232, 191, 0.4)",
+      "lineColor": "rgba(125, 186, 91, 0.4)",
+      "lineWidth": 1
+    },
+    {
+      "order": 43,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/94fu18jq",
+      "id": "43",
+      "name": "decor-leaf-vein",
+      "bbox": [
+        1448.48,
+        119,
+        27.04,
+        0
+      ],
+      "rotation": 28,
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(125, 186, 91, 0.6)",
+      "lineWidth": 1
+    },
+    {
+      "order": 44,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2p8nqxs7",
+      "id": "44",
+      "name": "decor-leaf",
+      "bbox": [
+        414,
+        642,
+        46,
+        16
+      ],
+      "rotation": 18,
+      "geometry": "ellipse",
+      "fillColor": "rgba(203, 232, 191, 0.4)",
+      "lineColor": "rgba(125, 186, 91, 0.4)",
+      "lineWidth": 1
+    },
+    {
+      "order": 45,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ra5gbq1o",
+      "id": "45",
+      "name": "decor-leaf-vein",
+      "bbox": [
+        425.04,
+        650,
+        23.92,
+        0
+      ],
+      "rotation": 18,
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(125, 186, 91, 0.6)",
+      "lineWidth": 1
+    },
+    {
+      "order": 46,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gvy90je9",
+      "id": "46",
+      "name": "decor-spark-h",
+      "bbox": [
+        529,
+        100,
+        20,
+        0
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(229, 180, 58, 0.4)",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 47,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9gr2p8nq",
+      "id": "47",
+      "name": "decor-spark-v",
+      "bbox": [
+        539,
+        90,
+        0,
+        20
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(229, 180, 58, 0.4)",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 48,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2t83itgf",
+      "id": "48",
+      "name": "decor-spark-h",
+      "bbox": [
+        1068,
+        232,
+        16,
+        0
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(255, 255, 255, 0.66667)",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 49,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/re1w7mp0",
+      "id": "49",
+      "name": "decor-spark-v",
+      "bbox": [
+        1076,
+        224,
+        0,
+        16
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(255, 255, 255, 0.66667)",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 50,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x4nap4r6",
+      "id": "50",
+      "name": "decor-spark-h",
+      "bbox": [
+        1460,
+        650,
+        20,
+        0
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(255, 255, 255, 0.6)",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 51,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8jqh0fep",
+      "id": "51",
+      "name": "decor-spark-v",
+      "bbox": [
+        1470,
+        640,
+        0,
+        20
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(255, 255, 255, 0.6)",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 52,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fyxobm58",
+      "id": "52",
+      "name": "decor-card-glint-1",
+      "bbox": [
+        481,
+        205,
+        82,
+        4
+      ],
+      "geometry": "roundRect",
+      "fillColor": "rgba(255, 255, 255, 0.53333)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 53,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qd4vmtwr",
+      "id": "53",
+      "name": "decor-card-glint-2",
+      "bbox": [
+        1007,
+        205,
+        82,
+        4
+      ],
+      "geometry": "roundRect",
+      "fillColor": "rgba(255, 255, 255, 0.53333)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 54,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xczed8v6",
+      "id": "54",
+      "name": "decor-card-glint-3",
+      "bbox": [
+        1532,
+        205,
+        58,
+        4
+      ],
+      "geometry": "roundRect",
+      "fillColor": "rgba(255, 255, 255, 0.53333)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 55,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8v6psfil",
+      "id": "55",
+      "name": "decor-dot",
+      "bbox": [
+        536,
+        165,
+        7,
+        7
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(232, 185, 69, 0.53333)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 56,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fa9w3m94",
+      "id": "56",
+      "name": "decor-dot",
+      "bbox": [
+        575,
+        190,
+        4,
+        4
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(232, 185, 69, 0.53333)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 57,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qpg3ex0n",
+      "id": "57",
+      "name": "decor-dot",
+      "bbox": [
+        1015,
+        171,
+        5,
+        5
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(232, 185, 69, 0.53333)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 58,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1gvy90je",
+      "id": "58",
+      "name": "decor-dot",
+      "bbox": [
+        1081,
+        191,
+        7,
+        7
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(232, 185, 69, 0.53333)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 59,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8z25kb6x",
+      "id": "59",
+      "name": "decor-dot",
+      "bbox": [
+        1536,
+        175,
+        5,
+        5
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(232, 185, 69, 0.53333)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 60,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/83itgfml",
+      "id": "60",
+      "name": "decor-dot",
+      "bbox": [
+        1584,
+        196,
+        4,
+        4
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(232, 185, 69, 0.53333)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 61,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xobm58z2",
+      "id": "61",
+      "name": "card-shadow",
+      "bbox": [
+        61,
+        160,
+        418,
+        598
+      ],
+      "geometry": "roundRect",
+      "fillColor": "rgba(0, 0, 0, 0.13333)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 62,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qxs72x4n",
+      "id": "62",
+      "name": "card",
+      "bbox": [
+        51,
+        150,
+        418,
+        608
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#5FA439",
+      "lineWidth": 2
+    },
+    {
+      "order": 63,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fil0rqd4",
+      "id": "63",
+      "name": "card-title-band",
+      "bbox": [
+        51,
+        428,
+        418,
+        43
+      ],
+      "geometry": "rect",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 64,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4fu18jqh",
+      "id": "64",
+      "bbox": [
+        51,
+        432,
+        418,
+        36
+      ],
+      "geometry": "rect",
+      "text": "实习单位一",
+      "textPreview": "实习单位一",
+      "resolvedFontSize": 33,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 33,
+        "typeface": "Microsoft YaHei",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "实习单位一"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "实习单位一",
+          "resolvedTextStyle": {
+            "fontSize": 33,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "实习单位一",
+              "fontSize": 33,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 65,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x0nuxc3y",
+      "id": "65",
+      "name": "certificate-paper",
+      "bbox": [
+        74,
+        142,
+        382,
+        262
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFDFC",
+      "lineColor": "#E7B63E",
+      "lineWidth": 1.3
+    },
+    {
+      "order": 66,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m94fu18j",
+      "id": "66",
+      "name": "certificate-inner-dash",
+      "bbox": [
+        84,
+        151,
+        362,
+        244
+      ],
+      "geometry": "rect",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#74B84D",
+      "lineWidth": 1
+    },
+    {
+      "order": 67,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fu18jqh0",
+      "id": "67",
+      "name": "certificate-ornament",
+      "bbox": [
+        95,
+        160,
+        30,
+        18
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(248, 221, 161, 0.33333)",
+      "lineColor": "#E7B63E",
+      "lineWidth": 1
+    },
+    {
+      "order": 68,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4r65wjud",
+      "id": "68",
+      "name": "certificate-ornament",
+      "bbox": [
+        115,
+        168,
+        22,
+        10
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(248, 221, 161, 0.33333)",
+      "lineColor": "#E7B63E",
+      "lineWidth": 1
+    },
+    {
+      "order": 69,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xc3ylc7u",
+      "id": "69",
+      "name": "certificate-ornament",
+      "bbox": [
+        407,
+        160,
+        30,
+        18
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(248, 221, 161, 0.33333)",
+      "lineColor": "#E7B63E",
+      "lineWidth": 1
+    },
+    {
+      "order": 70,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nap4r65w",
+      "id": "70",
+      "name": "certificate-ornament",
+      "bbox": [
+        399,
+        168,
+        22,
+        10
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(248, 221, 161, 0.33333)",
+      "lineColor": "#E7B63E",
+      "lineWidth": 1
+    },
+    {
+      "order": 71,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/upwb2hwf",
+      "id": "71",
+      "name": "certificate-ornament",
+      "bbox": [
+        95,
+        366,
+        30,
+        18
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(248, 221, 161, 0.33333)",
+      "lineColor": "#E7B63E",
+      "lineWidth": 1
+    },
+    {
+      "order": 72,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5gbq1ory",
+      "id": "72",
+      "name": "certificate-ornament",
+      "bbox": [
+        115,
+        374,
+        22,
+        10
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(248, 221, 161, 0.33333)",
+      "lineColor": "#E7B63E",
+      "lineWidth": 1
+    },
+    {
+      "order": 73,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cvixczed",
+      "id": "73",
+      "name": "certificate-ornament",
+      "bbox": [
+        407,
+        366,
+        30,
+        18
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(248, 221, 161, 0.33333)",
+      "lineColor": "#E7B63E",
+      "lineWidth": 1
+    },
+    {
+      "order": 74,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nyd0z610",
+      "id": "74",
+      "name": "certificate-ornament",
+      "bbox": [
+        399,
+        374,
+        22,
+        10
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(248, 221, 161, 0.33333)",
+      "lineColor": "#E7B63E",
+      "lineWidth": 1
+    },
+    {
+      "order": 75,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/udg7adsj",
+      "id": "75",
+      "name": "certificate-rule-top",
+      "bbox": [
+        140,
+        162,
+        235,
+        0
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#8B5E1E",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 76,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/54zidony",
+      "id": "76",
+      "name": "certificate-rule-bottom",
+      "bbox": [
+        140,
+        385,
+        235,
+        0
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#8B5E1E",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 77,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cj6tovah",
+      "id": "77",
+      "bbox": [
+        174,
+        187,
+        170,
+        38
+      ],
+      "geometry": "rect",
+      "text": "结 业 证 书",
+      "textPreview": "结 业 证 书",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Microsoft YaHei",
+        "color": "#E7B63E",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "结 业 证 书"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "结 业 证 书",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Microsoft YaHei",
+            "color": "#E7B63E",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "结 业 证 书",
+              "fontSize": 28,
+              "typeface": "Microsoft YaHei",
+              "color": "#E7B63E",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 78,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/judg7ads",
+      "id": "78",
+      "bbox": [
+        113,
+        248,
+        276,
+        72
+      ],
+      "geometry": "rect",
+      "text": "李翰 同学：\n于2026.3.22至2026.4.11参加华清远见基于大模型+智能体的AI数据分析\n项目实战训练营，学习期满、答辩合格、准予结业。\n\n特颁发此证书，以资鼓励。",
+      "textPreview": "李翰 同学： | 于2026.3.22至2026.4.11参加华清远见基于大模型+智能体的AI数据分析 | 项目实战训练营，学习期满、答辩合格、准予结业。 |  | 特颁发此证书，以资鼓励。",
+      "resolvedFontSize": 8.4,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 8.4,
+        "typeface": "Microsoft YaHei",
+        "color": "#222222",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "李翰 同学："
+          },
+          {
+            "index": 2,
+            "text": "于2026.3.22至2026.4.11参加华清远见基于大模型+智能体的AI数据分析"
+          },
+          {
+            "index": 3,
+            "text": "项目实战训练营，学习期满、答辩合格、准予结业。"
+          },
+          {
+            "index": 4,
+            "text": ""
+          },
+          {
+            "index": 5,
+            "text": "特颁发此证书，以资鼓励。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "李翰 同学：",
+          "resolvedTextStyle": {
+            "fontSize": 8.4,
+            "typeface": "Microsoft YaHei",
+            "color": "#222222",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "李翰 同学：",
+              "fontSize": 8.4,
+              "typeface": "Microsoft YaHei",
+              "color": "#222222"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "于2026.3.22至2026.4.11参加华清远见基于大模型+智能体的AI数据分析",
+          "resolvedTextStyle": {
+            "fontSize": 8.4,
+            "typeface": "Microsoft YaHei",
+            "color": "#222222",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "于2026.3.22至2026.4.11参加华清远见基于大模型+智能体的AI数据分析",
+              "fontSize": 8.4,
+              "typeface": "Microsoft YaHei",
+              "color": "#222222"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "项目实战训练营，学习期满、答辩合格、准予结业。",
+          "resolvedTextStyle": {
+            "fontSize": 8.4,
+            "typeface": "Microsoft YaHei",
+            "color": "#222222",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "项目实战训练营，学习期满、答辩合格、准予结业。",
+              "fontSize": 8.4,
+              "typeface": "Microsoft YaHei",
+              "color": "#222222"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "特颁发此证书，以资鼓励。",
+          "resolvedTextStyle": {
+            "fontSize": 8.4,
+            "typeface": "Microsoft YaHei",
+            "color": "#222222",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "特颁发此证书，以资鼓励。",
+              "fontSize": 8.4,
+              "typeface": "Microsoft YaHei",
+              "color": "#222222"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 79,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u9knih4b",
+      "id": "79",
+      "bbox": [
+        279,
+        338,
+        106,
+        24
+      ],
+      "geometry": "rect",
+      "text": "北京华清远见科技发展有限公司\n2026年4月12",
+      "textPreview": "北京华清远见科技发展有限公司 | 2026年4月12",
+      "resolvedFontSize": 7.8,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 7.8,
+        "typeface": "Microsoft YaHei",
+        "color": "#222222",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "北京华清远见科技发展有限公"
+          },
+          {
+            "index": 2,
+            "text": "司"
+          },
+          {
+            "index": 3,
+            "text": "2026年4月12"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "北京华清远见科技发展有限公司",
+          "resolvedTextStyle": {
+            "fontSize": 7.8,
+            "typeface": "Microsoft YaHei",
+            "color": "#222222",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "北京华清远见科技发展有限公司",
+              "fontSize": 7.8,
+              "typeface": "Microsoft YaHei",
+              "color": "#222222"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "2026年4月12",
+          "resolvedTextStyle": {
+            "fontSize": 7.8,
+            "typeface": "Microsoft YaHei",
+            "color": "#222222",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2026年4月12",
+              "fontSize": 7.8,
+              "typeface": "Microsoft YaHei",
+              "color": "#222222"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 80,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u54zidon",
+      "id": "80",
+      "name": "certificate-stamp",
+      "bbox": [
+        330,
+        318,
+        52,
+        52
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#C94332",
+      "lineWidth": 2
+    },
+    {
+      "order": 81,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nqxs72x4",
+      "id": "81",
+      "name": "certificate-stamp-line",
+      "bbox": [
+        342,
+        344,
+        28,
+        0
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#C94332",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 82,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cbulwval",
+      "id": "82",
+      "bbox": [
+        73,
+        500,
+        360,
+        215
+      ],
+      "geometry": "rect",
+      "text": "李翰 同学:\n于2026.3.22至2026.4.11参加华\n清远见基于大模型+智能体的AI数\n据分析项目实战训练营，学习期\n满、答辩合格、准予结业。",
+      "textPreview": "李翰 同学: | 于2026.3.22至2026.4.11参加华 | 清远见基于大模型+智能体的AI数 | 据分析项目实战训练营，学习期 | 满、答辩合格、准予结业。",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Microsoft YaHei",
+        "color": "#111111",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 8,
+        "lines": [
+          {
+            "index": 1,
+            "text": "李翰 同学:"
+          },
+          {
+            "index": 2,
+            "text": "于2026.3.22至2026.4.11参加"
+          },
+          {
+            "index": 3,
+            "text": "华"
+          },
+          {
+            "index": 4,
+            "text": "清远见基于大模型+智能体的"
+          },
+          {
+            "index": 5,
+            "text": "AI数"
+          },
+          {
+            "index": 6,
+            "text": "据分析项目实战训练营，学习"
+          },
+          {
+            "index": 7,
+            "text": "期"
+          },
+          {
+            "index": 8,
+            "text": "满、答辩合格、准予结业。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "李翰 同学:",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Microsoft YaHei",
+            "color": "#111111",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "李翰 同学:",
+              "fontSize": 27,
+              "typeface": "Microsoft YaHei",
+              "color": "#111111"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "于2026.3.22至2026.4.11参加华",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Microsoft YaHei",
+            "color": "#111111",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "于2026.3.22至2026.4.11参加华",
+              "fontSize": 27,
+              "typeface": "Microsoft YaHei",
+              "color": "#111111"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "清远见基于大模型+智能体的AI数",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Microsoft YaHei",
+            "color": "#111111",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "清远见基于大模型+智能体的AI数",
+              "fontSize": 27,
+              "typeface": "Microsoft YaHei",
+              "color": "#111111"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "据分析项目实战训练营，学习期",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Microsoft YaHei",
+            "color": "#111111",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "据分析项目实战训练营，学习期",
+              "fontSize": 27,
+              "typeface": "Microsoft YaHei",
+              "color": "#111111"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "满、答辩合格、准予结业。",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Microsoft YaHei",
+            "color": "#111111",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "满、答辩合格、准予结业。",
+              "fontSize": 27,
+              "typeface": "Microsoft YaHei",
+              "color": "#111111"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 83,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5sneloj2",
+      "id": "83",
+      "name": "card-shadow",
+      "bbox": [
+        590,
+        160,
+        418,
+        598
+      ],
+      "geometry": "roundRect",
+      "fillColor": "rgba(0, 0, 0, 0.13333)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 84,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ytsvu9kn",
+      "id": "84",
+      "name": "card",
+      "bbox": [
+        580,
+        150,
+        418,
+        608
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#5FA439",
+      "lineWidth": 2
+    },
+    {
+      "order": 85,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/neloj2t8",
+      "id": "85",
+      "name": "card-title-band",
+      "bbox": [
+        580,
+        428,
+        418,
+        43
+      ],
+      "geometry": "rect",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 86,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/czed8v6p",
+      "id": "86",
+      "bbox": [
+        580,
+        432,
+        418,
+        36
+      ],
+      "geometry": "rect",
+      "text": "实习单位二",
+      "textPreview": "实习单位二",
+      "resolvedFontSize": 33,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 33,
+        "typeface": "Microsoft YaHei",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "实习单位二"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "实习单位二",
+          "resolvedTextStyle": {
+            "fontSize": 33,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "实习单位二",
+              "fontSize": 33,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 87,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5kb6xkf6",
+      "id": "87",
+      "name": "photo-frame",
+      "bbox": [
+        591,
+        151,
+        395,
+        259
+      ],
+      "geometry": "rect",
+      "fillColor": "#DDE7E0",
+      "lineColor": "#74B84D",
+      "lineWidth": 1
+    },
+    {
+      "order": 88,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yhgn29gr",
+      "id": "88",
+      "name": "photo-cabinet-1",
+      "bbox": [
+        600,
+        153,
+        86,
+        119
+      ],
+      "geometry": "rect",
+      "fillColor": "#25292E",
+      "lineColor": "#1D2227",
+      "lineWidth": 1
+    },
+    {
+      "order": 89,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n29gr2p8",
+      "id": "89",
+      "name": "photo-cabinet-2",
+      "bbox": [
+        689,
+        153,
+        76,
+        119
+      ],
+      "geometry": "rect",
+      "fillColor": "#202429",
+      "lineColor": "#1D2227",
+      "lineWidth": 1
+    },
+    {
+      "order": 90,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d8bat47y",
+      "id": "90",
+      "name": "photo-curtain",
+      "bbox": [
+        767,
+        151,
+        116,
+        64
+      ],
+      "geometry": "rect",
+      "fillColor": "#87ADC8",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 91,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/knih4byh",
+      "id": "91",
+      "name": "photo-machine",
+      "bbox": [
+        879,
+        153,
+        80,
+        95
+      ],
+      "geometry": "rect",
+      "fillColor": "#ECECEC",
+      "lineColor": "#BBBBBB",
+      "lineWidth": 1
+    },
+    {
+      "order": 92,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v6psfil0",
+      "id": "92",
+      "name": "photo-workbench",
+      "bbox": [
+        661,
+        277,
+        321,
+        81
+      ],
+      "geometry": "rect",
+      "fillColor": "#0853A7",
+      "lineColor": "#06478F",
+      "lineWidth": 1
+    },
+    {
+      "order": 93,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2lszqtcj",
+      "id": "93",
+      "name": "photo-drawer-line",
+      "bbox": [
+        671,
+        288,
+        287,
+        0
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#E7D64C",
+      "lineWidth": 1
+    },
+    {
+      "order": 94,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d0z61032",
+      "id": "94",
+      "name": "photo-drawer-line",
+      "bbox": [
+        671,
+        295,
+        287,
+        0
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#E7D64C",
+      "lineWidth": 1
+    },
+    {
+      "order": 95,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kf6dcbul",
+      "id": "95",
+      "name": "photo-drawer-line",
+      "bbox": [
+        671,
+        302,
+        287,
+        0
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#E7D64C",
+      "lineWidth": 1
+    },
+    {
+      "order": 96,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vu9knih4",
+      "id": "96",
+      "name": "photo-drawer-line",
+      "bbox": [
+        671,
+        309,
+        287,
+        0
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#E7D64C",
+      "lineWidth": 1
+    },
+    {
+      "order": 97,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/29gr2p8n",
+      "id": "97",
+      "name": "photo-drawer-line",
+      "bbox": [
+        671,
+        316,
+        287,
+        0
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#E7D64C",
+      "lineWidth": 1
+    },
+    {
+      "order": 98,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/donyd0z6",
+      "id": "98",
+      "name": "photo-drawer-line",
+      "bbox": [
+        671,
+        323,
+        287,
+        0
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#E7D64C",
+      "lineWidth": 1
+    },
+    {
+      "order": 99,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k3q5o7qp",
+      "id": "99",
+      "name": "photo-drawer-line",
+      "bbox": [
+        671,
+        330,
+        287,
+        0
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#E7D64C",
+      "lineWidth": 1
+    },
+    {
+      "order": 100,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x0nuxc3y",
+      "id": "100",
+      "name": "photo-drawer-line",
+      "bbox": [
+        671,
+        337,
+        287,
+        0
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#E7D64C",
+      "lineWidth": 1
+    },
+    {
+      "order": 101,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4fu18jqh",
+      "id": "101",
+      "name": "photo-drawer-line",
+      "bbox": [
+        671,
+        344,
+        287,
+        0
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#E7D64C",
+      "lineWidth": 1
+    },
+    {
+      "order": 102,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fu18jqh0",
+      "id": "102",
+      "name": "photo-drawer-line",
+      "bbox": [
+        671,
+        351,
+        287,
+        0
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#E7D64C",
+      "lineWidth": 1
+    },
+    {
+      "order": 103,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m94fu18j",
+      "id": "103",
+      "name": "photo-monitor",
+      "bbox": [
+        594,
+        300,
+        120,
+        92
+      ],
+      "geometry": "rect",
+      "fillColor": "#2C2F33",
+      "lineColor": "#1C1E21",
+      "lineWidth": 1
+    },
+    {
+      "order": 104,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xobm58z2",
+      "id": "104",
+      "name": "photo-head",
+      "bbox": [
+        723,
+        244,
+        64,
+        55
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#F2C1A7",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 105,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/83itgfml",
+      "id": "105",
+      "name": "photo-hair",
+      "bbox": [
+        714,
+        226,
+        80,
+        42
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#2B211D",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 106,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fil0rqd4",
+      "id": "106",
+      "name": "photo-shirt",
+      "bbox": [
+        700,
+        299,
+        163,
+        94
+      ],
+      "geometry": "rect",
+      "fillColor": "#F7F1E9",
+      "lineColor": "#CCCCCC",
+      "lineWidth": 1
+    },
+    {
+      "order": 107,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qxs72x4n",
+      "id": "107",
+      "name": "photo-shirt-pattern",
+      "bbox": [
+        708,
+        309,
+        34,
+        56
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#111111",
+      "lineWidth": 1
+    },
+    {
+      "order": 108,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xkf6dcbu",
+      "id": "108",
+      "name": "photo-shirt-pattern",
+      "bbox": [
+        722,
+        309,
+        34,
+        56
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#111111",
+      "lineWidth": 1
+    },
+    {
+      "order": 109,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4zidonyd",
+      "id": "109",
+      "name": "photo-shirt-pattern",
+      "bbox": [
+        736,
+        309,
+        34,
+        56
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#111111",
+      "lineWidth": 1
+    },
+    {
+      "order": 110,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/itgfmlkj",
+      "id": "110",
+      "name": "photo-shirt-pattern",
+      "bbox": [
+        750,
+        309,
+        34,
+        56
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#111111",
+      "lineWidth": 1
+    },
+    {
+      "order": 111,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7ed8bat4",
+      "id": "111",
+      "name": "photo-shirt-pattern",
+      "bbox": [
+        764,
+        309,
+        34,
+        56
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#111111",
+      "lineWidth": 1
+    },
+    {
+      "order": 112,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0z61032l",
+      "id": "112",
+      "name": "photo-shirt-pattern",
+      "bbox": [
+        778,
+        309,
+        34,
+        56
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#111111",
+      "lineWidth": 1
+    },
+    {
+      "order": 113,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pkzupwb2",
+      "id": "113",
+      "name": "photo-shirt-pattern",
+      "bbox": [
+        792,
+        309,
+        34,
+        56
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#111111",
+      "lineWidth": 1
+    },
+    {
+      "order": 114,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ih4byhgn",
+      "id": "114",
+      "name": "photo-shirt-pattern",
+      "bbox": [
+        806,
+        309,
+        34,
+        56
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#111111",
+      "lineWidth": 1
+    },
+    {
+      "order": 115,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/72x4nap4",
+      "id": "115",
+      "name": "photo-shirt-pattern",
+      "bbox": [
+        820,
+        309,
+        34,
+        56
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#111111",
+      "lineWidth": 1
+    },
+    {
+      "order": 116,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0nuxc3yl",
+      "id": "116",
+      "name": "photo-shirt-pattern",
+      "bbox": [
+        834,
+        309,
+        34,
+        56
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#111111",
+      "lineWidth": 1
+    },
+    {
+      "order": 117,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p8nqxs72",
+      "id": "117",
+      "name": "photo-shirt-pattern",
+      "bbox": [
+        848,
+        309,
+        34,
+        56
+      ],
+      "geometry": "line",
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "#111111",
+      "lineWidth": 1
+    },
+    {
+      "order": 118,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ed8v6psf",
+      "id": "118",
+      "name": "photo-notebook",
+      "bbox": [
+        777,
+        345,
+        116,
+        40
+      ],
+      "geometry": "rect",
+      "fillColor": "#F1E3CC",
+      "lineColor": "#9D8B74",
+      "lineWidth": 1
+    },
+    {
+      "order": 119,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7y1kre1w",
+      "id": "119",
+      "bbox": [
+        602,
+        494,
+        320,
+        40
+      ],
+      "geometry": "rect",
+      "text": "实习内容描述（请填写）",
+      "textPreview": "实习内容描述（请填写）",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "#111111",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "实习内容描述（请填写）"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "实习内容描述（请填写）",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Microsoft YaHei",
+            "color": "#111111",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "实习内容描述（请填写）",
+              "fontSize": 24,
+              "typeface": "Microsoft YaHei",
+              "color": "#111111"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 120,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j6tovaho",
+      "id": "120",
+      "name": "card-shadow",
+      "bbox": [
+        1121,
+        160,
+        418,
+        598
+      ],
+      "geometry": "roundRect",
+      "fillColor": "rgba(0, 0, 0, 0.13333)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 121,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ulwval87",
+      "id": "121",
+      "name": "card",
+      "bbox": [
+        1111,
+        150,
+        418,
+        608
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#5FA439",
+      "lineWidth": 2
+    },
+    {
+      "order": 122,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1cfa9w3m",
+      "id": "122",
+      "name": "card-title-band",
+      "bbox": [
+        1111,
+        428,
+        418,
+        43
+      ],
+      "geometry": "rect",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 123,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/crmhk3q5",
+      "id": "123",
+      "bbox": [
+        1111,
+        432,
+        418,
+        36
+      ],
+      "geometry": "rect",
+      "text": "实习单位三",
+      "textPreview": "实习单位三",
+      "resolvedFontSize": 33,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 33,
+        "typeface": "Microsoft YaHei",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "实习单位三"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "实习单位三",
+          "resolvedTextStyle": {
+            "fontSize": 33,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "实习单位三",
+              "fontSize": 33,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 124,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ji5snelo",
+      "id": "124",
+      "name": "photo-placeholder",
+      "bbox": [
+        1122,
+        154,
+        396,
+        257
+      ],
+      "geometry": "rect",
+      "lineColor": "#74B84D",
+      "lineWidth": 1
+    },
+    {
+      "order": 125,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uxc3ylc7",
+      "id": "125",
+      "bbox": [
+        1199,
+        269,
+        242,
+        44
+      ],
+      "geometry": "rect",
+      "text": "实习照片",
+      "textPreview": "实习照片",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 25,
+        "typeface": "Microsoft YaHei",
+        "color": "#4A7429",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "实习照片"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "实习照片",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Microsoft YaHei",
+            "color": "#4A7429",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "实习照片",
+              "fontSize": 25,
+              "typeface": "Microsoft YaHei",
+              "color": "#4A7429"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 126,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1kre1w7m",
+      "id": "126",
+      "bbox": [
+        1133,
+        494,
+        320,
+        40
+      ],
+      "geometry": "rect",
+      "text": "实习内容描述（请填写）",
+      "textPreview": "实习内容描述（请填写）",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "#111111",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "实习内容描述（请填写）"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "实习内容描述（请填写）",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Microsoft YaHei",
+            "color": "#111111",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "实习内容描述（请填写）",
+              "fontSize": 24,
+              "typeface": "Microsoft YaHei",
+              "color": "#111111"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 127,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c3ylc7u5",
+      "id": "127",
+      "bbox": [
+        568,
+        785,
+        464,
+        54
+      ],
+      "geometry": "rect",
+      "text": "实践出真知，成长共进",
+      "textPreview": "实践出真知，成长共进",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 38,
+        "typeface": "SimSun",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "实践出真知，成长共进"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "实践出真知，成长共进",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "SimSun",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "实践出真知，成长共进",
+              "fontSize": 38,
+              "typeface": "SimSun",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

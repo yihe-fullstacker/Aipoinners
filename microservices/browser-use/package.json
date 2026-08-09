@@ -1,0 +1,23 @@
+﻿{
+  "name": "browser-use",
+  "version": "1.0.0",
+  "description": "Browser automation and computer-use toolkit for Codex",
+  "main": "scripts/browser-use.js",
+  "bin": {
+    "browser-use": "./bin/browser-use.bat"
+  },
+  "scripts": {
+    "browser-use": "node scripts/browser-use.js",
+    "server": "node scripts/browser-use-server.js",
+    "start": "node scripts/browser-use.js start",
+    "stop": "node scripts/browser-use.js stop",
+    "status": "node scripts/browser-use.js status"
+  },
+  "keywords": ["browser-automation", "playwright", "computer-use", "chrome-extension"],
+  "author": "Codex",
+  "license": "MIT",
+  "dependencies": {
+    "@playwright/test": "^1.60.0",
+    "playwright": "^1.60.0"
+  }
+}

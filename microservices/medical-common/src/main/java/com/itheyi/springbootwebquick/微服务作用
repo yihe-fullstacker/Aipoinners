@@ -1,0 +1,10 @@
+作用：
+存放 所有微服务共用的通用代码 ，避免每个服务重复写。
+
+identity-service    ──┐
+consultation-service ──┼──>  medical-common
+imaging-service      ──┤
+assistant-service   ──┘
+
+medical-common = 项目的「通用工具包」（工具类、异常、配置）
+medical-core-base = 项目的「统一数据字典 / 数据表模板」（实体、DTO、数据库操作）

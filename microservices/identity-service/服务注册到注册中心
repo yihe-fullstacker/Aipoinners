@@ -1,0 +1,9 @@
+当你的 identity-service、consultation-service 等微服务启动时：
+它们引入了 spring-cloud-starter-netflix-eureka-client 依赖，开启了客户端模式。
+它们的配置文件里指定了注册中心地址：
+properties
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
+客户端会在启动完成后，自动向注册中心的 POST /eureka/apps/{服务名} 接口发送 HTTP 请求，上报自己的：
+服务名（如 identity-service）
+IP + 端口（如 localhost:8081）
+健康状态、实例 ID 等元数据
