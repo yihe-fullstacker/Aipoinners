@@ -1,0 +1,57 @@
+/* ============================================
+   uni.scss — UniApp 全局 SCSS 变量
+   完全对齐 aipionners-porject2/src/assets/variables.css
+   被 UniApp 编译时自动注入所有页面/组件
+   ============================================ */
+
+/* uview-plus 主题覆盖 */
+$u-primary: #1A5F7A;
+$u-primary-light: #2A7A9A;
+$u-primary-dark: #0F3A4D;
+$u-success: #10B981;
+$u-warning: #F59E0B;
+$u-error: #DC2626;
+$u-info: #70d6ff;
+$u-type-primary: #1A5F7A;
+$u-type-success: #10B981;
+$u-type-warning: #F59E0B;
+$u-type-error: #DC2626;
+$u-type-info: #70d6ff;
+
+/* 品牌色 */
+$brand-primary: #70d6ff;
+$brand-accent: #48efcb;
+
+/* 背景 */
+$bg-page: #040b16;
+$bg-surface-panel: rgba(8, 15, 26, 0.94);
+$bg-surface-card: rgba(255, 255, 255, 0.035);
+
+/* 文字 */
+$text-primary: #f0f6ff;
+$text-secondary: rgba(210, 225, 245, 0.75);
+$text-muted: rgba(200, 218, 242, 0.65);
+
+/* 间距 (rpx) */
+$spacing-xs: 12rpx;
+$spacing-sm: 20rpx;
+$spacing-md: 28rpx;
+$spacing-lg: 36rpx;
+$spacing-xl: 48rpx;
+
+/* 圆角 */
+$radius-sm: 14rpx;
+$radius-md: 20rpx;
+$radius-lg: 28rpx;
+$radius-round: 999rpx;
+
+/* 字体 */
+$font-family-base: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+$font-size-xs: 22rpx;
+$font-size-sm: 26rpx;
+$font-size-base: 28rpx;
+$font-size-lg: 32rpx;
+$font-size-xl: 36rpx;
+
+/* 动画 */
+$transition-base: 0.25s ease;

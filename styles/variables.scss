@@ -1,0 +1,44 @@
+/* styles/variables.scss — SCSS 变量 (被各页面 @import) */
+
+/* 主色 */
+$primary: #1A5F7A;
+$primary-light: #2A7A9A;
+$primary-dark: #0F3A4D;
+$success: #10B981;
+$warning: #F59E0B;
+$error: #DC2626;
+
+/* 品牌 */
+$brand-primary: #70d6ff;
+$brand-accent: #48efcb;
+
+/* 背景 */
+$bg-page: #040b16;
+$bg-card: linear-gradient(180deg, rgba(7,21,36,0.94), rgba(4,12,24,0.96));
+$bg-surface: rgba(8, 15, 26, 0.94);
+
+/* 文字 */
+$text-primary: #f0f6ff;
+$text-secondary: rgba(210, 225, 245, 0.75);
+$text-muted: rgba(200, 218, 242, 0.65);
+
+/* 间距 */
+$space-xs: 12rpx;
+$space-sm: 20rpx;
+$space-md: 28rpx;
+$space-lg: 36rpx;
+$space-xl: 48rpx;
+
+/* 圆角 */
+$radius-sm: 14rpx;
+$radius-md: 20rpx;
+$radius-lg: 28rpx;
+$radius-round: 999rpx;
+
+/* 阴影 */
+$shadow-card: 0 4rpx 24rpx rgba(0,0,0,0.38);
+$shadow-accent: 0 12rpx 36rpx rgba(126,220,255,0.3);
+
+/* 导航 */
+$nav-height: 88rpx;
+$tab-height: 100rpx;

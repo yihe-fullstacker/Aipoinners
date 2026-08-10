@@ -1,0 +1,6 @@
+<!-- subpkg-patient/course/index.vue -- 课程中心，被mine/index.vue菜单唤起，纯展示页 -->
+<template><view class="p"><NavBar title="课程中心" :showBack="true"/><view class="b"><text class="t">智慧医疗课程</text><text class="d">系统化学习 AI 影像、远程诊疗与医学知识</text><view class="g"><view v-for="c in courses" :key="c.ttl" class="card"><text class="ci">{{c.ico}}</text><text class="ctt">{{c.ttl}}</text><text class="cdd">{{c.dsc}}</text></view></view></view></view></template>
+<script setup>import NavBar from'@/components/nav-bar.vue'
+const courses=[{ico:'🫁',ttl:'AI医学影像基础',dsc:'理解深度学习在影像诊断中的应用'},{ico:'🧠',ttl:'远程医疗概览',dsc:'互联网医院的核心技术架构'},{ico:'⚠️',ttl:'医学伦理与合规',dsc:'AI辅助诊断的法律与伦理框架'},{ico:'📊',ttl:'医疗大数据应用',dsc:'从数据采集到临床决策支持'}]
+</script>
+<style scoped>.p{min-height:100vh;background:#040b16}.b{padding:28rpx}.t{font-size:36rpx;font-weight:700;color:#f0f6ff;display:block;margin-bottom:14rpx}.d{font-size:26rpx;color:rgba(200,218,242,0.65);margin-bottom:36rpx}.g{display:flex;flex-direction:column;gap:20rpx}.card{padding:28rpx;border-radius:20rpx;background:linear-gradient(180deg,rgba(7,22,38,0.92),rgba(4,13,24,0.92));border:1px solid rgba(125,211,252,0.1);display:flex;flex-direction:column;gap:12rpx}.ci{font-size:44rpx}.ctt{font-size:30rpx;font-weight:700;color:#f0f6ff}.cdd{font-size:24rpx;color:rgba(200,218,242,0.65);line-height:1.6}</style>

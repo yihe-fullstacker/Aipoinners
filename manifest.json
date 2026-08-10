@@ -1,0 +1,39 @@
+{
+  "name": "aipionners-uniapp",
+  "appid": "__UNI__MEDICAL",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "description": "影智医疗 AI 影像诊断 App",
+  "transformPx": false,
+  "app-plus": {
+    "usingComponents": true,
+    "nvueStyleCompiler": "uni-app",
+    "compilerVersion": 3,
+    "splashscreen": {
+      "alwaysShowBeforeRender": true,
+      "waiting": true,
+      "autoclose": true,
+      "delay": 0
+    },
+    "modules": {
+      "OAuth": {}
+    },
+    "distribute": {
+      "android": {
+        "permissions": [
+          "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+          "<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+          "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>"
+        ]
+      }
+    }
+  },
+  "h5": {
+    "title": "影智医疗",
+    "routerMode": "hash",
+    "publicPath": "./"
+  },
+  "vueVersion": "3"
+}

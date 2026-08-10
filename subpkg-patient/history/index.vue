@@ -1,0 +1,10 @@
+<!-- subpkg-patient/history/index.vue — 诊疗历史，对齐 PatientHistory；从 patient/home 快捷进入 -->
+<template><view class="page-shell"><NavBar title="诊疗历史" :showBack="true"/><LoadingSkeleton v-if="loading"/><EmptyState v-else-if="list.length===0" icon="📋" title="暂无诊疗记录" desc="上传影像并发起诊断后，诊疗历史会在这里沉淀"/><scroll-view v-else scroll-y class="body"><view v-for="r in list" :key="r.id" class="h-card" @tap="goDetail(r.id)"><view class="hc-top"><text class="hc-id">#{{r.id}}</text><text class="hc-date">{{r.date||r.createdAt}}</text></view><text class="hc-diag" v-if="r.doctorDiagnosis">诊断: {{r.doctorDiagnosis.substring(0,60)}}...</text><view class="hc-footer"><text class="hc-conf">{{fmtConf(r.confidence)}}</text><text class="hc-arrow">→</text></view></view></scroll-view></view></template>
+<script setup>
+import {ref,onMounted} from 'vue';import NavBar from '@/components/nav-bar.vue';import LoadingSkeleton from '@/components/loading-skeleton.vue';import EmptyState from '@/components/empty-state.vue';import {medicalAPI} from '@/api/medical'
+const loading=ref(true);const list=ref([])
+const fmtConf=(c)=>c!=null?`AI置信度 ${(c*100).toFixed(1)}%`:''
+onMounted(async()=>{try{const r=await medicalAPI.getReports();list.value=Array.isArray(r)?r:(r?.data||[])}catch(e){}finally{loading.value=false}})
+const goDetail=(id)=>uni.navigateTo({url:`/subpkg-patient/consultation/detail?id=${id}`})
+</script>
+<style scoped>.page-shell{min-height:100vh;background:#040b16}.body{padding:20rpx 28rpx;padding-bottom:40rpx}.h-card{padding:24rpx;border-radius:20rpx;background:linear-gradient(180deg,rgba(7,21,36,0.94),rgba(4,12,24,0.96));border:1px solid rgba(125,211,252,0.1);margin-bottom:20rpx}.hc-top{display:flex;justify-content:space-between;margin-bottom:14rpx}.hc-id{font-size:30rpx;font-weight:700;color:#f7fbff}.hc-date{font-size:22rpx;color:rgba(185,214,244,0.66)}.hc-diag{font-size:24rpx;color:rgba(200,218,242,0.7);line-height:1.6;margin-bottom:14rpx}.hc-footer{display:flex;justify-content:space-between;align-items:center}.hc-conf{font-size:22rpx;color:#70d6ff;font-weight:600}.hc-arrow{font-size:32rpx;color:#70d6ff}</style>

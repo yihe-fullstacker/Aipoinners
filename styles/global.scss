@@ -1,0 +1,91 @@
+/* styles/global.scss — 全局基础样式，被 App.vue import */
+/* 完全对齐 aipionners-porject2/src/assets/variables.css 设计系统 */
+
+page {
+  background: #040b16;
+  color: #f0f6ff;
+  font-family: 'PingFang SC', 'Microsoft YaHei', 'HarmonyOS Sans SC', sans-serif;
+  font-size: 28rpx;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ============ 页面容器 ============ */
+.page-shell {
+  min-height: 100vh;
+  background: #040b16;
+  padding: 0 20rpx 20rpx;
+}
+.page-shell--safe {
+  padding-top: var(--status-bar-height, 44px);
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* ============ 卡片 ============ */
+.card-surface {
+  background: linear-gradient(180deg, rgba(7, 21, 36, 0.94), rgba(4, 12, 24, 0.96));
+  border: 1px solid rgba(125, 211, 252, 0.12);
+  border-radius: 20rpx;
+  box-shadow: 0 24rpx 64rpx rgba(0, 0, 0, 0.38);
+}
+
+/* ============ 按钮 ============ */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20rpx 44rpx;
+  background: linear-gradient(135deg, #5eead4, #38bdf8);
+  color: #032032;
+  border-radius: 999rpx;
+  border: none;
+  font-size: 28rpx;
+  font-weight: 700;
+}
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20rpx 44rpx;
+  background: rgba(8, 20, 35, 0.82);
+  color: #ecf8ff;
+  border: 1px solid rgba(125, 211, 252, 0.16);
+  border-radius: 999rpx;
+  font-size: 28rpx;
+  font-weight: 600;
+}
+
+/* ============ Eyebrow ============ */
+.eyebrow, .section-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 8rpx;
+  padding: 8rpx 20rpx;
+  background: rgba(34, 211, 238, 0.08);
+  border: 1px solid rgba(34, 211, 238, 0.18);
+  border-radius: 999rpx;
+  color: #86e9ff;
+  font-size: 22rpx;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* ============ 文字 ============ */
+.text-primary { color: #f0f6ff; }
+.text-secondary { color: rgba(210, 225, 245, 0.75); }
+.text-muted { color: rgba(200, 218, 242, 0.65); }
+.text-accent { color: #70d6ff; }
+.text-success { color: #48efcb; }
+
+/* ============ Flex 工具 ============ */
+.flex-center { display: flex; align-items: center; justify-content: center; }
+.flex-between { display: flex; align-items: center; justify-content: space-between; }
+.flex-col { display: flex; flex-direction: column; }
+
+/* ============ 安全区域 ============ */
+.safe-bottom {
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+}

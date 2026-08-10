@@ -1,0 +1,67 @@
+{
+  "pages": [
+    { "path": "pages/index/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/login/login", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/register/register", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/home/home", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/qa/chat", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/upload/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/report/list", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/mine/index", "style": { "navigationStyle": "custom" } }
+  ],
+  "subPackages": [
+    {
+      "root": "subpkg-patient",
+      "pages": [
+        { "path": "upload/diagnose", "style": { "navigationStyle": "custom" } },
+        { "path": "report/detail", "style": { "navigationStyle": "custom" } },
+        { "path": "report/analysis", "style": { "navigationStyle": "custom" } },
+        { "path": "report/deep", "style": { "navigationStyle": "custom" } },
+        { "path": "report/deepseek", "style": { "navigationStyle": "custom" } },
+        { "path": "consultation/detail", "style": { "navigationStyle": "custom" } },
+        { "path": "history/index", "style": { "navigationStyle": "custom" } },
+        { "path": "ai/evaluate", "style": { "navigationStyle": "custom" } },
+        { "path": "ai/active-learning", "style": { "navigationStyle": "custom" } },
+        { "path": "course/index", "style": { "navigationStyle": "custom" } },
+        { "path": "course/detail", "style": { "navigationStyle": "custom" } },
+        { "path": "mine/about", "style": { "navigationStyle": "custom" } },
+        { "path": "mine/instruction", "style": { "navigationStyle": "custom" } }
+      ]
+    },
+    {
+      "root": "subpkg-doctor",
+      "pages": [
+        { "path": "workspace/index", "style": { "navigationStyle": "custom" } },
+        { "path": "stats/index", "style": { "navigationStyle": "custom" } }
+      ]
+    }
+  ],
+  "preloadRule": {
+    "pages/home/home": { "network": "all", "packages": ["subpkg-patient"] }
+  },
+  "globalStyle": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#040b16",
+    "backgroundColor": "#040b16"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#94A3B8",
+    "selectedColor": "#70d6ff",
+    "backgroundColor": "#040b16",
+    "list": [
+      { "pagePath": "pages/home/home", "text": "首页" },
+      { "pagePath": "pages/qa/chat", "text": "AI问答" },
+      { "pagePath": "pages/upload/index", "text": "上传" },
+      { "pagePath": "pages/report/list", "text": "报告" },
+      { "pagePath": "pages/mine/index", "text": "我的" }
+    ]
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^u-(.*)": "uview-plus/components/u-$1/u-$1.vue"
+    }
+  }
+}

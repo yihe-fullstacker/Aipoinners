@@ -1,0 +1,6 @@
+<!-- subpkg-patient/mine/instruction.vue -- 使用说明，被mine/index.vue菜单唤起，纯展示页无API调用 -->
+<template><view class="p"><NavBar title="使用说明" :showBack="true"/><view class="b"><text class="t">使用说明</text><view v-for="(s,i) in steps" :key="i" class="step"><text class="sn">{{i+1}}</text><view><text class="st">{{s.ttl}}</text><text class="sd">{{s.dsc}}</text></view></view></view></view></template>
+<script setup>import NavBar from'@/components/nav-bar.vue'
+const steps=[{ttl:'上传影像',dsc:'通过底部上传入口或首页快捷按钮，选择医学影像文件'},{ttl:'AI分析',dsc:'系统自动进行病灶识别与结构分析，生成诊断摘要'},{ttl:'查看报告',dsc:'在报告中心查看详细分析结果与历史记录'},{ttl:'在线问答',dsc:'通过AI问答入口获得报告解读与健康咨询'}]
+</script>
+<style scoped>.p{min-height:100vh;background:#040b16}.b{padding:28rpx}.t{font-size:36rpx;font-weight:700;color:#f0f6ff;margin-bottom:36rpx}.step{display:flex;gap:20rpx;margin-bottom:28rpx}.sn{width:56rpx;height:56rpx;border-radius:50%;background:rgba(34,211,238,0.12);border:1px solid rgba(34,211,238,0.25);display:flex;align-items:center;justify-content:center;font-size:24rpx;color:#86e9ff;font-weight:700;flex-shrink:0}.st{font-size:30rpx;font-weight:600;color:#f0f6ff;display:block;margin-bottom:8rpx}.sd{font-size:24rpx;color:rgba(200,218,242,0.65);line-height:1.7}</style>

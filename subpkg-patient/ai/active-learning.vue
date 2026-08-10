@@ -1,0 +1,4 @@
+<!-- ai/active-learning.vue -- 主动学习，对齐 ActiveLearning -->
+<template><view class="p"><NavBar title="主动学习" :showBack="true"/><view class="b"><text class="t">主动学习</text><text class="d">通过主动学习策略优化AI模型训练样本选择</text><view class="cd"><text class="ct">主动学习功能</text><text class="no">主动学习模块准备中，请稍后或从Web端访问此功能。</text></view></view></view></template>
+<script setup>import NavBar from'@/components/nav-bar.vue'</script>
+<style scoped>.p{min-height:100vh;background:#040b16}.b{padding:28rpx}.t{font-size:36rpx;font-weight:700;color:#f0f6ff;display:block;margin-bottom:14rpx}.d{font-size:26rpx;color:rgba(200,218,242,.65);margin-bottom:36rpx;line-height:1.7}.cd{padding:24rpx;border-radius:22rpx;background:linear-gradient(180deg,rgba(7,21,36,.94),rgba(4,12,24,.96));border:1px solid rgba(125,211,252,.12)}.ct{font-size:30rpx;font-weight:700;color:#f7fbff;margin-bottom:20rpx;display:block}.no{font-size:26rpx;color:rgba(200,218,242,.5);padding:40rpx 0;text-align:center}</style>

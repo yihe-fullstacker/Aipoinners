@@ -1,0 +1,7 @@
+<!-- subpkg-patient/upload/diagnose.vue — AI分析中心，对齐 Dashboard -->
+<template><view class="page-shell"><NavBar title="AI分析中心" :showBack="true"/><view class="body"><ImageUpload @upload-complete="onAnalyze" :autoAnalyze="true"/><view v-if="analysis" class="result-section mt-lg"><AnalysisCard :analysis="analysis"/></view><view v-else class="empty-result"><text class="er-icon">AI</text><text class="er-title">上传影像后查看分析结果</text><text class="er-desc">系统会显示影像识别结果、风险提示和诊疗建议</text></view></view></view></template>
+<script setup>
+import {ref} from 'vue';import NavBar from '@/components/nav-bar.vue';import ImageUpload from '@/components/image-upload.vue';import AnalysisCard from '@/components/analysis-card.vue';const analysis=ref(null)
+const onAnalyze=(r)=>{analysis.value=r}
+</script>
+<style scoped>.page-shell{min-height:100vh;background:#040b16}.body{padding:28rpx}.mt-lg{margin-top:36rpx}.empty-result{min-height:360rpx;border-radius:22rpx;border:1rpx dashed rgba(125,211,252,0.16);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:28rpx}.er-icon{width:100rpx;height:100rpx;border-radius:28rpx;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#5eead4,#38bdf8);color:#032032;font-size:40rpx;font-weight:800;margin-bottom:24rpx}.er-title{font-size:28rpx;font-weight:700;color:#f7fbff;margin-bottom:14rpx}.er-desc{font-size:24rpx;color:rgba(200,218,242,0.65);line-height:1.7;max-width:500rpx}</style>

@@ -1,0 +1,19 @@
+/* styles/uview-theme.scss — uview-plus 主题定制 */
+
+/* uview-plus 组件主题覆盖 — 对齐项目品牌色 */
+:root {
+  --u-primary: #1A5F7A;
+  --u-primary-light: #2A7A9A;
+  --u-primary-dark: #0F3A4D;
+  --u-success: #10B981;
+  --u-warning: #F59E0B;
+  --u-error: #DC2626;
+  --u-info: #70d6ff;
+}
+
+/* 暗色主题下 uview 组件调整 */
+.theme-dark {
+  --u-bg-color: #040b16;
+  --u-text-color: #f0f6ff;
+  --u-border-color: rgba(255,255,255,0.07);
+}

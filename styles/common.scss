@@ -1,0 +1,18 @@
+/* styles/common.scss — 通用工具类 */
+.overflow-hidden { overflow: hidden; }
+.w-full { width: 100%; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.font-bold { font-weight: 700; }
+.mt-sm { margin-top: 20rpx; }
+.mt-md { margin-top: 28rpx; }
+.mt-lg { margin-top: 36rpx; }
+.mb-sm { margin-bottom: 20rpx; }
+.mb-md { margin-bottom: 28rpx; }
+.p-sm { padding: 20rpx; }
+.p-md { padding: 28rpx; }
+.p-lg { padding: 36rpx; }
+.rounded { border-radius: 20rpx; }
+.rounded-full { border-radius: 999rpx; }
+.truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
