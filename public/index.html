@@ -1,15 +1,50 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="zh-CN">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <title>医学影像AI诊断系统</title>
+    <script src="https://modao.cc/agent-py/static/source/js/tailwindcss.3.4.3.js"></script>
+    <script src="https://modao.cc/agent-py/static/source/js/iconify-icon.min.1.0.7.js"></script>
+    <script src="https://modao.cc/agent-py/static/source/js/echarts.min.5.4.3.js"></script>
+    <!-- 强制AI链接样式 - 最高优先级 -->
+    <style>
+      /* 强制.ai-link样式，最高优先级 */
+      .ai-link,
+      * .ai-link,
+      body .ai-link,
+      html .ai-link,
+      div .ai-link,
+      p .ai-link,
+      .message-content .ai-link {
+        color: #0066cc !important;
+        text-decoration: underline !important;
+        text-underline-offset: 2px !important;
+        display: inline-block !important;
+        cursor: pointer !important;
+      }
+      
+      .ai-link:hover,
+      * .ai-link:hover,
+      body .ai-link:hover,
+      html .ai-link:hover {
+        color: #004c99 !important;
+        text-decoration: underline !important;
+        background-color: rgba(0, 102, 204, 0.08) !important;
+      }
+      
+      .ai-link:link,
+      .ai-link:visited {
+        color: #0066cc !important;
+        text-decoration: underline !important;
+      }
+    </style>
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>很抱歉,但医学影像AI诊断系统需要JavaScript支持才能正常工作。</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->

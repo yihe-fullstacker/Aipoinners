@@ -1,0 +1,1262 @@
+/**
+ * Medical Course Design System
+ * 医疗课程设计系统 - CSS变量
+ * 
+ * 色彩规范：
+ * - 深海蓝 #1A5F7A (主色)
+ * - 科技青绿 #10B981 (成功/高亮)
+ * - 橙色警告 #F59E0B (警告/提示)
+ */
+
+:root {
+  /* =========================================
+     核心主色 - 深海蓝
+     ========================================= */
+  --color-primary: #1A5F7A;
+  --color-primary-hover: #164C65;
+  --color-primary-active: #0F3A4D;
+  --color-primary-light: #2A7A9A;
+  --color-primary-alpha-80: rgba(26, 95, 122, 0.8);
+  --color-primary-alpha-10: rgba(26, 95, 122, 0.1);
+
+  /* =========================================
+     辅色功能映射
+     ========================================= */
+  --color-success: #10B981;
+  --color-success-light: #E8F7EE;
+  --color-success-dark: #1E7B48;
+  --color-warning: #F59E0B;
+  --color-warning-light: #FFFBEB;
+  --color-warning-dark: #B45309;
+
+  /* =========================================
+     等级标签颜色
+     ========================================= */
+  --level-beginner-bg: #E8F7EE;
+  --level-beginner-text: #1E7B48;
+  --level-intermediate-bg: #E6F2FC;
+  --level-intermediate-text: #1A5F7A;
+  --level-intermediate-border: #BED4E4;
+  --level-intermediate-hover: #D0E1F7;
+  --level-advanced-bg: #F3EBFC;
+  --level-advanced-text: #6941C6;
+  --level-advanced-border: #DCD0F3;
+  --level-advanced-hover: #E6D7F8;
+
+  /* =========================================
+     背景与卡片系统
+     ========================================= */
+  --color-background: #F4F7FB;
+  --color-card: #FFFFFF;
+  --color-divider: #EFF2F6;
+
+  /* =========================================
+     文本色阶
+     ========================================= */
+  --color-text-primary: #1A1A1A;
+  --color-text-secondary: #4A5568;
+  --color-text-tertiary: #718096;
+  --color-text-disabled: #94A3B8;
+  --color-text-white: #FFFFFF;
+
+  /* =========================================
+     阴影系统
+     ========================================= */
+  --shadow-card: 0 2px 8px rgba(26, 95, 122, 0.08);
+  --shadow-card-hover: 0 4px 16px rgba(26, 95, 122, 0.12);
+  --shadow-nav: 0 2px 8px rgba(0, 0, 0, 0.06);
+
+  /* =========================================
+     圆角系统
+     ========================================= */
+  --radius-card: 12px;
+  --radius-tag: 6px;
+  --radius-button: 8px;
+  --radius-full: 999px;
+
+  /* =========================================
+     间距系统
+     ========================================= */
+  --spacing-card: 24px;
+  --spacing-card-mobile: 12px;
+  --spacing-card-gap: 16px;
+  --spacing-card-gap-mobile: 12px;
+
+  /* =========================================
+     按钮状态
+     ========================================= */
+  --button-primary-bg: var(--color-primary);
+  --button-primary-hover: var(--color-primary-hover);
+  --button-primary-active: var(--color-primary-active);
+  --button-primary-disabled-bg: var(--color-text-disabled);
+  --button-primary-disabled-opacity: 0.5;
+
+  /* =========================================
+     App Theme Tokens
+     ========================================= */
+  --ui-theme-name: dark;
+  --ui-font-family: "HarmonyOS Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --ui-bg-page: #040b16;
+  --ui-bg-page-alt: #071e2e;
+  --ui-bg-page-soft: #0b1730;
+  --ui-bg-page-gradient:
+    radial-gradient(ellipse 70% 50% at 10% -5%, rgba(56, 130, 246, 0.14) 0%, transparent 50%),
+    radial-gradient(ellipse 55% 40% at 95% 105%, rgba(44, 212, 191, 0.1) 0%, transparent 50%),
+    #040b16;
+  --ui-bg-auth-gradient:
+    radial-gradient(ellipse 80% 50% at 20% -10%, rgba(56, 139, 255, 0.14) 0%, transparent 55%),
+    radial-gradient(ellipse 60% 40% at 85% 110%, rgba(48, 239, 196, 0.1) 0%, transparent 50%),
+    #040b16;
+  --ui-bg-landing: #050f1a;
+  --ui-surface-panel: rgba(8, 15, 26, 0.94);
+  --ui-surface-panel-strong: rgba(7, 30, 46, 0.72);
+  --ui-surface-card: rgba(255, 255, 255, 0.035);
+  --ui-surface-card-strong: rgba(255, 255, 255, 0.06);
+  --ui-surface-chip: rgba(255, 255, 255, 0.045);
+  --ui-surface-chip-strong: rgba(255, 255, 255, 0.08);
+  --ui-border-soft: rgba(255, 255, 255, 0.07);
+  --ui-border-medium: rgba(255, 255, 255, 0.12);
+  --ui-border-accent: rgba(112, 214, 255, 0.22);
+  --ui-border-accent-strong: rgba(112, 214, 255, 0.32);
+  --ui-text-primary: #f0f6ff;
+  --ui-text-secondary: rgba(210, 225, 245, 0.75);
+  --ui-text-muted: rgba(200, 218, 242, 0.65);
+  --ui-text-subtle: rgba(170, 190, 220, 0.45);
+  --ui-text-contrast: #08101d;
+  --ui-brand-primary: #70d6ff;
+  --ui-brand-accent: #48efcb;
+  --ui-brand-primary-rgb: 112, 214, 255;
+  --ui-brand-accent-rgb: 72, 239, 203;
+  --ui-danger: #f87171;
+  --ui-shadow-panel: 0 24px 64px rgba(0, 0, 0, 0.38);
+  --ui-shadow-panel-strong: 0 32px 80px rgba(0, 0, 0, 0.4);
+  --ui-shadow-accent: 0 16px 36px rgba(126, 220, 255, 0.3);
+  --ui-shadow-soft: 0 12px 28px rgba(0, 0, 0, 0.18);
+  --ui-grid-color: rgba(255, 255, 255, 0.04);
+  --ui-grid-color-strong: rgba(255, 255, 255, 0.035);
+  --ui-glass-blur: 22px;
+  --ui-radius-xs: 10px;
+  --ui-radius-sm: 14px;
+  --ui-radius-md: 18px;
+  --ui-radius-lg: 24px;
+  --ui-radius-xl: 30px;
+  --ui-nav-bg: rgba(4, 20, 32, 0.92);
+  --ui-nav-bg-scrolled: rgba(4, 20, 32, 0.98);
+  --ui-nav-border: rgba(14, 165, 233, 0.12);
+  --ui-nav-border-scrolled: rgba(14, 165, 233, 0.2);
+  --ui-nav-shadow: 0 4px 32px rgba(0, 0, 0, 0.4);
+}
+
+:root[data-theme='dark'] {
+  --ui-theme-name: dark;
+}
+
+:root[data-theme='medical-ai'] {
+  --ui-theme-name: medical-ai;
+  --ui-bg-page: #eef5fb;
+  --ui-bg-page-alt: #f8fbff;
+  --ui-bg-page-soft: #dbe8f5;
+  --ui-bg-page-gradient:
+    radial-gradient(ellipse 78% 60% at 15% -5%, rgba(32, 92, 158, 0.12) 0%, transparent 58%),
+    radial-gradient(ellipse 58% 42% at 92% 102%, rgba(0, 167, 164, 0.1) 0%, transparent 52%),
+    linear-gradient(135deg, #f7fbff 0%, #edf4fb 42%, #e4eef8 100%);
+  --ui-bg-auth-gradient:
+    radial-gradient(ellipse 82% 52% at 18% -8%, rgba(29, 88, 152, 0.1) 0%, transparent 58%),
+    radial-gradient(ellipse 62% 44% at 88% 108%, rgba(0, 171, 163, 0.09) 0%, transparent 54%),
+    linear-gradient(135deg, #f7fbff 0%, #edf4fb 45%, #e5eef8 100%);
+  --ui-bg-landing:
+    linear-gradient(180deg, #f7fbff 0%, #eef5fb 48%, #e5eef8 100%);
+  --ui-surface-panel: rgba(255, 255, 255, 0.84);
+  --ui-surface-panel-strong: rgba(255, 255, 255, 0.94);
+  --ui-surface-card: rgba(245, 249, 255, 0.88);
+  --ui-surface-card-strong: rgba(236, 244, 252, 0.96);
+  --ui-surface-chip: rgba(244, 248, 255, 0.86);
+  --ui-surface-chip-strong: rgba(240, 247, 255, 0.96);
+  --ui-border-soft: rgba(92, 125, 162, 0.18);
+  --ui-border-medium: rgba(92, 125, 162, 0.28);
+  --ui-border-accent: rgba(18, 63, 120, 0.2);
+  --ui-border-accent-strong: rgba(0, 157, 150, 0.28);
+  --ui-text-primary: #0f2746;
+  --ui-text-secondary: rgba(25, 52, 84, 0.88);
+  --ui-text-muted: rgba(40, 68, 100, 0.8);
+  --ui-text-subtle: rgba(68, 96, 128, 0.68);
+  --ui-text-contrast: #ffffff;
+  --ui-brand-primary: #163f73;
+  --ui-brand-accent: #06a39a;
+  --ui-brand-primary-rgb: 18, 63, 120;
+  --ui-brand-accent-rgb: 6, 163, 154;
+  --ui-danger: #dc4f5f;
+  --ui-shadow-panel: 0 18px 44px rgba(20, 55, 97, 0.1);
+  --ui-shadow-panel-strong: 0 24px 60px rgba(20, 55, 97, 0.12);
+  --ui-shadow-accent: 0 14px 34px rgba(18, 63, 120, 0.14);
+  --ui-shadow-soft: 0 10px 26px rgba(20, 55, 97, 0.08);
+  --ui-grid-color: rgba(38, 84, 126, 0.06);
+  --ui-grid-color-strong: rgba(38, 84, 126, 0.05);
+  --ui-glass-blur: 28px;
+  --ui-radius-xs: 12px;
+  --ui-radius-sm: 16px;
+  --ui-radius-md: 20px;
+  --ui-radius-lg: 26px;
+  --ui-radius-xl: 34px;
+  --ui-nav-bg: rgba(248, 251, 255, 0.82);
+  --ui-nav-bg-scrolled: rgba(248, 251, 255, 0.94);
+  --ui-nav-border: rgba(67, 104, 145, 0.12);
+  --ui-nav-border-scrolled: rgba(67, 104, 145, 0.18);
+  --ui-nav-shadow: 0 12px 36px rgba(20, 55, 97, 0.08);
+  --radius-card: 24px;
+  --radius-button: 16px;
+  --shadow-card: 0 16px 36px rgba(20, 55, 97, 0.1);
+  --shadow-card-hover: 0 22px 48px rgba(20, 55, 97, 0.14);
+}
+
+/* =========================================
+   夜间模式 (通过CSS媒体查询动态切换)
+   ========================================= */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #0F172A;
+    --color-card: #1E293B;
+    --color-divider: #334155;
+    --color-text-primary: #F1F5F9;
+    --color-text-secondary: #CBD5E1;
+    --color-text-tertiary: #94A3B8;
+  }
+}
+
+/* =========================================
+   全局基础样式
+   ========================================= */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--ui-font-family), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background: var(--ui-bg-page-gradient);
+  color: var(--ui-text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* 移除过渡动画提升性能 */
+}
+
+body[data-theme='medical-ai'] {
+  color-scheme: light;
+}
+
+body[data-theme='medical-ai'] :is(
+  .dashboard-page,
+  .reports-page,
+  .history-page,
+  .case-detail-page,
+  .analysis-report-page,
+  .deep-analysis-page,
+  .consultation-page,
+  .patient-home,
+  .data-dashboard,
+  .upload-container,
+  .smart-qa-workstation
+) {
+  color: var(--ui-text-primary) !important;
+  background: transparent !important;
+}
+
+body[data-theme='medical-ai'] :is(
+  .dashboard-page,
+  .reports-page,
+  .history-page,
+  .case-detail-page,
+  .analysis-report-page,
+  .deep-analysis-page,
+  .consultation-page,
+  .patient-home,
+  .data-dashboard,
+  .upload-container,
+  .smart-qa-workstation
+) :is(
+  .page-shell,
+  .dashboard-shell,
+  .hero-panel,
+  .card-surface,
+  .visual-panel,
+  .summary-panel,
+  .toolbar,
+  .upload-card,
+  .result-card,
+  .feature-section,
+  .report-card,
+  .record-card,
+  .confidence-panel,
+  .summary-item,
+  .finding-item,
+  .feature-item,
+  .diagnosis-item,
+  .action-item,
+  .viewer-panel,
+  .control-panel,
+  .region-item,
+  .measurement-item,
+  .metric-card,
+  .fact-item,
+  .insight-item,
+  .analysis-note,
+  .analysis-empty,
+  .viewer-card,
+  .info-card,
+  .summary-card,
+  .findings-card,
+  .diagnosis-card,
+  .recommendations-card,
+  .region-card,
+  .measurement-card,
+  .action-card,
+  .editor-card,
+  .chat-card,
+  .workspace-header,
+  .queue-item,
+  .queue-empty,
+  .hero-notice,
+  .gallery-card,
+  .gc-info,
+  .image-panel,
+  .chat-messages,
+  .chat-input,
+  .chat-guide,
+  .msg,
+  .chat-status,
+  .diagnosis-text,
+  .hero-section,
+  .gallery-section,
+  .content-section,
+  .cta-section,
+  .service-card,
+  .theme-cyan,
+  .theme-blue,
+  .theme-teal,
+  .theme-indigo,
+  .module-highlight,
+  .module-point,
+  .module-tab,
+  .module-display,
+  .journey-grid article,
+  .resource-grid article,
+  .resource-card,
+  .stat-card,
+  .chart-card,
+  .feature-card,
+  .queue-panel,
+  .workspace,
+  .focus-panel,
+  .profile-item,
+  .workspace-side-card,
+  .workspace-side-block,
+  .conversation-banner,
+  .conversation-suggestion-row,
+  .service-form-card,
+  .workspace-input-dock,
+  .expert-card,
+  .workspace-status-chip,
+  .input-helper-row,
+  .gallery-track,
+  .module-tabs
+) {
+  background: var(--ui-surface-panel) !important;
+  border: 1px solid var(--ui-border-soft) !important;
+  box-shadow: var(--ui-shadow-panel) !important;
+  /* 移除毛玻璃效果提升性能 */
+}
+
+body[data-theme='medical-ai'] :is(
+  .dashboard-page,
+  .reports-page,
+  .history-page,
+  .case-detail-page,
+  .analysis-report-page,
+  .deep-analysis-page,
+  .consultation-page,
+  .patient-home,
+  .data-dashboard,
+  .upload-container,
+  .smart-qa-workstation
+) :is(
+  .confidence-card,
+  .finding-card,
+  .recommendation-block,
+  .recommendation-block li,
+  .empty-block,
+  .summary-tip,
+  .recommendation-list li,
+  .upload-area,
+  .preview-image-wrapper,
+  .preview-placeholder,
+  .error-message,
+  .info-row,
+  .image-box,
+  .summary-item,
+  .info-item,
+  .diagnosis-item,
+  .region-item,
+  .measurement-item,
+  .feature-item
+) {
+  background: var(--ui-surface-card-strong) !important;
+  border: 1px solid var(--ui-border-soft) !important;
+  box-shadow: var(--ui-shadow-soft) !important;
+}
+
+body[data-theme='medical-ai'] :is(
+  .dashboard-page,
+  .reports-page,
+  .history-page,
+  .case-detail-page,
+  .analysis-report-page,
+  .deep-analysis-page,
+  .consultation-page,
+  .patient-home,
+  .data-dashboard,
+  .upload-container,
+  .smart-qa-workstation
+) :is(
+  .upload-area:hover,
+  .upload-area.drag-over,
+  .upload-area.has-file,
+  .filter-chip,
+  .state-card,
+  .empty-state
+) {
+  background: var(--ui-surface-card-strong) !important;
+  border: 1px solid var(--ui-border-soft) !important;
+  box-shadow: var(--ui-shadow-soft) !important;
+}
+
+/* 确保医学图片在主题切换时不会受影响 */
+body[data-theme='medical-ai'] .diagnostic-image {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  filter: brightness(1.04) contrast(1.12) saturate(1.04) !important;
+  opacity: 1 !important;
+}
+
+body[data-theme='medical-ai'] .diagnostic-image:not(.is-loaded) {
+  opacity: 0.3 !important;
+}
+
+/* 确保图片容器和相关元素在主题切换时不受影响 */
+body[data-theme='medical-ai'] .image-frame {
+  background: linear-gradient(180deg, rgba(5, 14, 25, 0.98), rgba(1, 6, 14, 0.98)) !important;
+}
+
+body[data-theme='medical-ai'] .image-status {
+  background: rgba(4, 14, 27, 0.82) !important;
+  border: 1px solid rgba(125, 211, 252, 0.12) !important;
+  color: #d7f3ff !important;
+}
+
+
+body[data-theme='medical-ai'] :is(
+  .dashboard-page,
+  .reports-page,
+  .history-page,
+  .case-detail-page,
+  .analysis-report-page,
+  .deep-analysis-page,
+  .consultation-page,
+  .patient-home,
+  .data-dashboard,
+  .upload-container,
+  .smart-qa-workstation
+) :is(
+  h1,
+  h2,
+  h3,
+  h4,
+  strong,
+  .hero-title,
+  .section-kicker,
+  .section-badge,
+  .panel-kicker,
+  .summary-badge,
+  .chart-header h3,
+  .stat-value,
+  .record-id,
+  .report-id,
+  .viewer-title,
+  .queue-item__name,
+  .workspace-title,
+  .workspace-title-block,
+  .expert-meta strong,
+  .conversation-banner-body,
+  .module-point-title,
+  .resource-title,
+  .journey-card-title,
+  .cta-copy,
+  .hero-copy,
+  .notice-title,
+  .section-title,
+  .gallery-title,
+  .service-title,
+  .resource-title,
+  .module-tab-title,
+  .module-display-label,
+  .metric-value,
+  .chat-content,
+  .msg-content,
+  .ghost-link,
+  .service-tag,
+  .gc-tag,
+  .soft-pill,
+  .workspace-badge,
+  .focus-label,
+  .editor-count,
+  .queue-count,
+  .patient-avatar,
+  .highlight-title,
+  .gc-label,
+  .empty-title,
+  .queue-empty__title,
+  .viewer-empty__title,
+  .workspace-empty__title,
+  .disease-name,
+  .prompt-content strong,
+  .message-image-preview-title,
+  .hero-panel h1,
+  .card-head h2,
+  .confidence-row strong,
+  .finding-head strong,
+  .summary-item strong,
+  .info-item strong,
+  .measurement-item strong,
+  .diagnosis-top span,
+  .region-top span,
+  .feature-head h2,
+  .module-display-head h3,
+  .workspace-header h1,
+  .side-hero-card h3,
+  .side-block-header h3,
+  .queue-head h2,
+  .title
+) {
+  color: var(--ui-text-primary) !important;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.18);
+}
+
+body[data-theme='medical-ai'] :is(
+  .dashboard-page,
+  .reports-page,
+  .history-page,
+  .case-detail-page,
+  .analysis-report-page,
+  .deep-analysis-page,
+  .consultation-page,
+  .patient-home,
+  .data-dashboard,
+  .upload-container,
+  .smart-qa-workstation
+) :is(
+  .upload-content h3,
+  .report-id,
+  .state-card h2,
+  .info-row strong,
+  .report-card strong,
+  .summary-tip strong,
+  .recommendation-list li strong
+) {
+  color: var(--ui-text-primary) !important;
+}
+
+body[data-theme='medical-ai'] :is(
+  .dashboard-page,
+  .reports-page,
+  .history-page,
+  .case-detail-page,
+  .analysis-report-page,
+  .deep-analysis-page,
+  .consultation-page,
+  .patient-home,
+  .data-dashboard,
+  .upload-container,
+  .smart-qa-workstation
+) :is(
+  p,
+  small,
+  .hero-subtitle,
+  .report-date,
+  .record-time,
+  .confidence-row span,
+  .summary-item span,
+  .finding-card p,
+  .finding-card p span,
+  .empty-block,
+  .recommendation-block li,
+  .summary-tip,
+  .info-item .label,
+  .region-item p,
+  .diagnosis-item p span,
+  .measurement-item span,
+  .finding-confidence,
+  .summary-label,
+  .section-subtitle,
+  .chart-subtitle,
+  .workspace-status,
+  .workspace-status-chip,
+  .conversation-banner-tags,
+  .prompt-content span,
+  .expert-tags,
+  .notice-text,
+  .metric-label,
+  .metric-detail,
+  .queue-item__meta,
+  .queue-item__meta span,
+  .module-tab-desc,
+  .module-point-text,
+  .highlight-text,
+  .service-text,
+  .service-points li,
+  .resource-text,
+  .gc-acc,
+  .chat-meta,
+  .msg-meta,
+  .chat-guide,
+  .chat-action-row span,
+  .ghost-link,
+  .diagnosis-text,
+  .service-desc,
+  .resource-type,
+  .journey-step,
+  .footer-tip
+) {
+  color: var(--ui-text-muted) !important;
+}
+
+body[data-theme='medical-ai'] :is(
+  .dashboard-page,
+  .reports-page,
+  .history-page,
+  .case-detail-page,
+  .analysis-report-page,
+  .deep-analysis-page,
+  .consultation-page,
+  .patient-home,
+  .data-dashboard,
+  .upload-container,
+  .smart-qa-workstation
+) :is(
+  .upload-content,
+  .upload-content p,
+  .upload-hint,
+  .preview-placeholder p,
+  .file-size,
+  .report-date,
+  .info-row span,
+  .summary-tip,
+  .recommendation-list li,
+  .state-card p
+) {
+  color: var(--ui-text-secondary) !important;
+}
+
+body[data-theme='medical-ai'] :is(
+  .dashboard-page,
+  .reports-page,
+  .history-page,
+  .case-detail-page,
+  .analysis-report-page,
+  .deep-analysis-page,
+  .consultation-page,
+  .patient-home,
+  .data-dashboard,
+  .upload-container,
+  .smart-qa-workstation
+) :is(
+  .panel-kicker,
+  .summary-badge,
+  .filter-chip,
+  .confidence-tag,
+  .finding-confidence
+) {
+  background: var(--ui-surface-chip-strong) !important;
+  color: var(--ui-brand-primary) !important;
+  border: 1px solid var(--ui-border-accent) !important;
+}
+
+body[data-theme='medical-ai'] :is(
+  .dashboard-page,
+  .reports-page,
+  .history-page,
+  .case-detail-page,
+  .analysis-report-page,
+  .deep-analysis-page,
+  .consultation-page,
+  .patient-home,
+  .data-dashboard,
+  .upload-container,
+  .smart-qa-workstation
+) .filter-chip.active {
+  background: linear-gradient(135deg, rgba(var(--ui-brand-primary-rgb), 0.18), rgba(var(--ui-brand-accent-rgb), 0.16)) !important;
+  color: var(--ui-text-primary) !important;
+  border-color: var(--ui-border-accent-strong) !important;
+}
+
+body[data-theme='medical-ai'] :is(
+  .dashboard-page,
+  .reports-page,
+  .history-page,
+  .case-detail-page,
+  .analysis-report-page,
+  .deep-analysis-page,
+  .consultation-page,
+  .patient-home,
+  .data-dashboard,
+  .upload-container,
+  .smart-qa-workstation
+) :is(
+  .hero-btn.primary,
+  .btn-primary,
+  .btn-primary-hero,
+  .cta-btn-primary,
+  .workspace-status-chip:not(.muted),
+  .conversation-suggestion-row button,
+  .workspace-input-dock button[type='submit'],
+  .upload-btn,
+  .primary-btn
+) {
+  background: linear-gradient(135deg, var(--ui-brand-primary), var(--ui-brand-accent)) !important;
+  color: var(--ui-text-contrast) !important;
+  border-color: rgba(var(--ui-brand-primary-rgb), 0.24) !important;
+  box-shadow: var(--ui-shadow-accent) !important;
+}
+
+body[data-theme='medical-ai'] :is(
+  .dashboard-page,
+  .reports-page,
+  .history-page,
+  .case-detail-page,
+  .analysis-report-page,
+  .deep-analysis-page,
+  .consultation-page,
+  .patient-home,
+  .data-dashboard,
+  .upload-container,
+  .smart-qa-workstation
+) :is(
+  .hero-btn.secondary,
+  .btn-secondary,
+  .btn-ghost,
+  .quick-nav-chip,
+  .section-badge,
+  .confidence-pill,
+  .panel-badge,
+  .eyebrow,
+  .workspace-status-chip.muted
+) {
+  background: var(--ui-surface-chip) !important;
+  color: var(--ui-brand-primary) !important;
+  border: 1px solid var(--ui-border-soft) !important;
+}
+
+body[data-theme='medical-ai'] :is(
+  .dashboard-page,
+  .reports-page,
+  .history-page,
+  .case-detail-page,
+  .analysis-report-page,
+  .deep-analysis-page,
+  .consultation-page,
+  .patient-home,
+  .data-dashboard,
+  .upload-container,
+  .smart-qa-workstation
+) :is(
+  .queue-count,
+  .patient-avatar
+) {
+  background:
+    linear-gradient(135deg, rgba(var(--ui-brand-primary-rgb), 0.16), rgba(var(--ui-brand-accent-rgb), 0.16)) !important;
+  color: var(--ui-brand-primary) !important;
+  border: 1px solid rgba(var(--ui-brand-primary-rgb), 0.2) !important;
+  box-shadow: var(--ui-shadow-soft) !important;
+}
+
+body[data-theme='medical-ai'] :is(
+  .dashboard-page,
+  .reports-page,
+  .history-page,
+  .case-detail-page,
+  .analysis-report-page,
+  .deep-analysis-page,
+  .consultation-page,
+  .patient-home,
+  .data-dashboard,
+  .upload-container,
+  .smart-qa-workstation
+) :is(
+  .module-tab.active,
+  .queue-item.active,
+  .chat-bubble.is-doctor,
+  .msg-doctor,
+  .status-pill.done,
+  .status-pill.tone-success
+) {
+  background:
+    linear-gradient(135deg, rgba(var(--ui-brand-primary-rgb), 0.18), rgba(var(--ui-brand-accent-rgb), 0.2)) !important;
+  border-color: rgba(var(--ui-brand-accent-rgb), 0.32) !important;
+  color: var(--ui-text-primary) !important;
+}
+
+body[data-theme='medical-ai'] :is(
+  .dashboard-page,
+  .reports-page,
+  .history-page,
+  .case-detail-page,
+  .analysis-report-page,
+  .deep-analysis-page,
+  .consultation-page,
+  .patient-home,
+  .data-dashboard,
+  .upload-container,
+  .smart-qa-workstation
+) :is(
+  .chat-bubble.is-patient,
+  .msg-patient,
+  .status-pill.pending,
+  .status-pill.tone-pending,
+  .status-pill.tone-processing
+) {
+  background: var(--ui-surface-card-strong) !important;
+  border-color: var(--ui-border-medium) !important;
+  color: var(--ui-text-primary) !important;
+}
+
+body[data-theme='medical-ai'] :is(
+  .dashboard-page,
+  .reports-page,
+  .history-page,
+  .case-detail-page,
+  .analysis-report-page,
+  .deep-analysis-page,
+  .consultation-page,
+  .patient-home,
+  .data-dashboard,
+  .upload-container,
+  .smart-qa-workstation
+) :is(
+  textarea,
+  input,
+  .diagnosis-text,
+  .chat-composer textarea,
+  .chat-input textarea,
+  .search-box input
+) {
+  background: rgba(247, 250, 255, 0.96) !important;
+  color: var(--ui-text-primary) !important;
+  border: 1px solid var(--ui-border-medium) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55) !important;
+}
+
+body[data-theme='medical-ai'] :is(
+  .dashboard-page,
+  .reports-page,
+  .history-page,
+  .case-detail-page,
+  .analysis-report-page,
+  .deep-analysis-page,
+  .consultation-page,
+  .patient-home,
+  .data-dashboard,
+  .upload-container,
+  .smart-qa-workstation
+) :is(textarea, input)::placeholder {
+  color: var(--ui-text-subtle) !important;
+}
+
+body[data-theme='medical-ai'] :is(
+  .dashboard-page,
+  .reports-page,
+  .history-page,
+  .case-detail-page,
+  .analysis-report-page,
+  .deep-analysis-page,
+  .consultation-page,
+  .patient-home,
+  .data-dashboard,
+  .upload-container,
+  .smart-qa-workstation
+) :is(
+  .btn-card,
+  .chat-composer button,
+  .chat-action-row button
+) {
+  background: linear-gradient(135deg, var(--ui-brand-primary), var(--ui-brand-accent)) !important;
+  color: var(--ui-text-contrast) !important;
+  border: 1px solid rgba(var(--ui-brand-primary-rgb), 0.2) !important;
+  box-shadow: var(--ui-shadow-accent) !important;
+}
+
+body[data-theme='medical-ai'] :is(
+  .dashboard-page,
+  .reports-page,
+  .history-page,
+  .case-detail-page,
+  .analysis-report-page,
+  .deep-analysis-page,
+  .consultation-page,
+  .patient-home,
+  .data-dashboard,
+  .upload-container,
+  .smart-qa-workstation
+) :is(
+  .gallery-card:hover,
+  .service-card:hover,
+  .resource-card:hover,
+  .module-display:hover,
+  .module-tab:hover,
+  .queue-item:hover,
+  .record-card:hover
+) {
+  border-color: var(--ui-border-accent-strong) !important;
+  box-shadow: var(--ui-shadow-panel-strong) !important;
+}
+
+body[data-theme='medical-ai'] .patient-home .ph-bg-grid,
+body[data-theme='medical-ai'] .landing-page .hero-bg-grid {
+  background-image:
+    linear-gradient(var(--ui-grid-color-strong) 1px, transparent 1px),
+    linear-gradient(90deg, var(--ui-grid-color-strong) 1px, transparent 1px) !important;
+  background-size: 56px 56px !important;
+  background-position: center top !important;
+  opacity: 0.38 !important;
+}
+
+body[data-theme='medical-ai'] .patient-home :is(.ph-bg-orb, .aurora, .scene-glow) {
+  opacity: 0.55 !important;
+  filter: blur(64px) !important;
+}
+
+body[data-theme='dark'] .main-content > :is(
+  .landing-page,
+  .instruction-page,
+  .dashboard-page,
+  .reports-page,
+  .history-page,
+  .case-detail-page,
+  .analysis-report-page,
+  .deep-analysis-page,
+  .consultation-page,
+  .patient-home,
+  .smart-qa-workstation
+) {
+  background-position: center top !important;
+}
+
+body[data-theme='dark'] .main-content > .smart-qa-workstation > .workspace-header,
+body[data-theme='medical-ai'] .main-content > .smart-qa-workstation > .workspace-header {
+  background: var(--ui-surface-panel) !important;
+  border-bottom: 1px solid var(--ui-border-soft) !important;
+  box-shadow: var(--ui-shadow-soft) !important;
+  backdrop-filter: blur(var(--ui-glass-blur)) !important;
+  -webkit-backdrop-filter: blur(var(--ui-glass-blur)) !important;
+}
+
+body[data-theme='dark'] .main-content > .smart-qa-workstation > .workspace-header {
+  color: var(--ui-text-primary) !important;
+}
+
+body[data-theme='dark'] .main-content > .smart-qa-workstation > .workspace-header :is(
+  h1,
+  p,
+  .workspace-kicker,
+  .workspace-status,
+  .workspace-status-chip
+) {
+  color: inherit !important;
+}
+
+body[data-theme='medical-ai'] .landing-page .cta-section {
+  border-top: 1px solid var(--ui-border-soft) !important;
+  background: transparent !important;
+}
+
+body[data-theme='medical-ai'] .landing-page .cta-inner {
+  max-width: 720px !important;
+  padding: 28px 36px 24px !important;
+  border-radius: var(--ui-radius-xl) !important;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(242, 248, 255, 0.94)) !important;
+  border: 1px solid rgba(67, 104, 145, 0.14) !important;
+  box-shadow: var(--ui-shadow-panel), inset 0 1px 0 rgba(255, 255, 255, 0.6) !important;
+  backdrop-filter: blur(var(--ui-glass-blur)) !important;
+  -webkit-backdrop-filter: blur(var(--ui-glass-blur)) !important;
+}
+
+body[data-theme='medical-ai'] .landing-page .cta-glow {
+  width: 720px !important;
+  height: 420px !important;
+  background: radial-gradient(ellipse, rgba(var(--ui-brand-primary-rgb), 0.12) 0%, rgba(var(--ui-brand-accent-rgb), 0.08) 36%, transparent 70%) !important;
+}
+
+body[data-theme='medical-ai'] .landing-page .cta-badge {
+  min-height: 34px !important;
+  padding: 0 16px !important;
+  border-radius: 999px !important;
+  background: var(--ui-surface-chip-strong) !important;
+  border: 1px solid var(--ui-border-accent) !important;
+  color: var(--ui-brand-primary) !important;
+}
+
+body[data-theme='medical-ai'] .landing-page .cta-title {
+  color: var(--ui-text-primary) !important;
+}
+
+body[data-theme='medical-ai'] .landing-page .cta-sub,
+body[data-theme='medical-ai'] .landing-page .cta-features span {
+  color: var(--ui-text-secondary) !important;
+}
+
+body[data-theme='medical-ai'] .landing-page .cta-btn-primary {
+  background: linear-gradient(135deg, var(--ui-brand-primary), var(--ui-brand-accent)) !important;
+  color: var(--ui-text-contrast) !important;
+  border-radius: var(--ui-radius-sm) !important;
+  box-shadow: var(--ui-shadow-accent) !important;
+}
+
+body[data-theme='medical-ai'] .landing-page .cta-btn-primary:hover {
+  background: linear-gradient(135deg, rgba(var(--ui-brand-primary-rgb), 0.92), rgba(var(--ui-brand-accent-rgb), 0.92)) !important;
+}
+
+body[data-theme='medical-ai'] .landing-page .cta-btn-sec {
+  color: var(--ui-brand-primary) !important;
+  background: var(--ui-surface-chip) !important;
+  border: 1px solid var(--ui-border-soft) !important;
+  border-radius: var(--ui-radius-sm) !important;
+}
+
+body[data-theme='medical-ai'] .landing-page .cta-btn-sec:hover {
+  color: var(--ui-text-primary) !important;
+  border-color: var(--ui-border-accent-strong) !important;
+  box-shadow: var(--ui-shadow-soft) !important;
+}
+
+body[data-theme='medical-ai'] .landing-page .cta-features svg {
+  stroke: var(--ui-brand-accent) !important;
+}
+
+/* =========================================
+   标题样式规范
+   ========================================= */
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--color-primary);
+  line-height: 1.3;
+  margin: 0;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--color-primary-alpha-80);
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* =========================================
+   按钮基础样式
+   ========================================= */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border-radius: var(--radius-button);
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.btn-primary {
+  background-color: var(--button-primary-bg);
+  color: var(--color-text-white);
+}
+
+.btn-primary:hover:not(:disabled) {
+  background-color: var(--button-primary-hover);
+}
+
+.btn-primary:active:not(:disabled) {
+  background-color: var(--button-primary-active);
+}
+
+.btn-primary:disabled {
+  background-color: var(--button-primary-disabled-bg);
+  opacity: var(--button-primary-disabled-opacity);
+  cursor: not-allowed;
+}
+
+/* =========================================
+   卡片基础样式
+   ========================================= */
+.card {
+  background-color: var(--color-card);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  padding: var(--spacing-card);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-card-hover);
+}
+
+/* =========================================
+   分割线样式
+   ========================================= */
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-divider);
+  margin: 0 -24px;
+}
+
+@media (max-width: 768px) {
+  .divider {
+    margin: 0 -12px;
+  }
+}
+
+/* =========================================
+   高亮数字样式
+   ========================================= */
+.highlight-number {
+  color: var(--color-success);
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+/* =========================================
+   响应式断点
+   ========================================= */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  .card {
+    padding: var(--spacing-card-mobile);
+  }
+}
+
+/* =========================================
+   可访问性 - 焦点样式
+   ========================================= */
+*:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* =========================================
+   打印样式优化
+   ========================================= */
+@media print {
+  body {
+    background: white;
+  }
+
+  .card {
+    box-shadow: none;
+    border: 1px solid #ddd;
+  }
+}
+
+/* =========================================
+   视频模态框全局保护（不改变任何界面内容）
+   ========================================= */
+.video-modal {
+  z-index: 99999 !important;
+  isolation: isolate !important;
+  position: fixed !important;
+  inset: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: rgba(0, 0, 0, 0.85) !important;
+}
+
+.video-modal-content {
+  z-index: 99999 !important;
+  position: relative !important;
+  width: 90% !important;
+  max-width: 900px !important;
+  background: #000 !important;
+  border-radius: 12px !important;
+  overflow: hidden !important;
+}
+
+.video-close-btn {
+  z-index: 100000 !important;
+  position: absolute !important;
+  top: 12px !important;
+  right: 12px !important;
+  width: 36px !important;
+  height: 36px !important;
+  border-radius: 50% !important;
+  background: rgba(255,255,255,0.2) !important;
+  border: none !important;
+  color: #fff !important;
+  font-size: 18px !important;
+  cursor: pointer !important;
+}
+
+.video-iframe-container {
+  z-index: 99999 !important;
+  width: 100% !important;
+  aspect-ratio: 16/9 !important;
+}
+
+.video-iframe {
+  z-index: 100000 !important;
+  width: 100% !important;
+  height: 100% !important;
+  border: none !important;
+  display: block !important;
+}
+
+/* 科技医疗主题特殊保护 */
+body[data-theme='medical-ai'] .video-modal,
+body[data-theme='medical-ai'] .video-modal-content,
+body[data-theme='medical-ai'] .video-iframe-container,
+body[data-theme='medical-ai'] .video-iframe,
+body[data-theme='medical-ai'] .video-close-btn {
+  z-index: 99999 !important;
+  isolation: isolate !important;
+  position: relative !important;
+}
+
+body[data-theme='medical-ai'] .video-modal {
+  position: fixed !important;
+  inset: 0 !important;
+}
+
+/* 深色主题特殊保护 */
+body[data-theme='dark'] .video-modal,
+body[data-theme='dark'] .video-modal-content,
+body[data-theme='dark'] .video-iframe-container,
+body[data-theme='dark'] .video-iframe,
+body[data-theme='dark'] .video-close-btn {
+  z-index: 99999 !important;
+  isolation: isolate !important;
+  position: relative !important;
+}
+
+body[data-theme='dark'] .video-modal {
+  position: fixed !important;
+  inset: 0 !important;
+}

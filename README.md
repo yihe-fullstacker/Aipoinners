@@ -20,5 +20,22 @@ npm run build
 npm run lint
 ```
 
+## 模型配置与切换指南
+项目中涉及到大模型 API 的调用，主要配置在后端（AIPioneers）的 `application.properties` 中。
+
+支持的模型清单（以阿里云 DashScope/通义千问 为例）：
+- 文本对话模型：`qwen-turbo`, `qwen-plus`, `qwen-max`
+- 视觉/多模态模型：`qwen-vl-plus`, `qwen-vl-max`
+
+修改或切换模型请更新如下配置：
+```properties
+# 文本对话默认使用的模型
+openai.chat.options.model-name=qwen-plus
+# 如果默认模型不可用（例如提示 Model not exist），系统将自动降级并重试此模型
+openai.chat.fallback.model-name=qwen-turbo
+# 视觉相关任务默认使用的模型
+openai.vision.model-name=qwen-vl-plus
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
