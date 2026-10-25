@@ -255,16 +255,18 @@ export default {
         throw new Error('No root scene found in GLB.')
       }
 
-      let meshCount = 0
+      const meshes = []
       object.traverse((child) => {
-        if (!child.isMesh) {
-          return
+        if (child.isMesh) {
+          meshes.push(child)
         }
-        applySceneMaterial(child, meshCount)
-        meshCount += 1
       })
 
-      if (!meshCount) {
+      meshes.forEach((child, index) => {
+        applySceneMaterial(child, index)
+      })
+
+      if (!meshes.length) {
         throw new Error('No mesh found in GLB.')
       }
 

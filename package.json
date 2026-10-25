@@ -1,9 +1,15 @@
 {
   "name": "medical-ai-frontend",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=18.18 <25"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "prebuild": "node scripts/optimize-heart-model.mjs",
+    "build": "vue-cli-service build && npm run verify:pages",
+    "optimize:heart": "node scripts/optimize-heart-model.mjs",
+    "verify:pages": "node scripts/check-pages-assets.mjs",
     "dev": "vue-cli-service serve"
   },
   "dependencies": {

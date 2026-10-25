@@ -15,6 +15,19 @@ npm run serve
 npm run build
 ```
 
+### Deploy to Cloudflare Pages
+
+For a Pages project connected to this GitHub repository, use these build settings:
+
+- Root directory: leave empty (the repository root)
+- Build command: `npm run build`
+- Build output directory: `dist`
+- Node.js version: `20` (set `NODE_VERSION=20` in the Pages environment variables if needed)
+
+`npm run build` regenerates the optimized heart model, builds the Vue app, and rejects
+any output file that reaches Cloudflare's 25 MiB per-file limit. The checked output is
+`dist`, not the repository root.
+
 ### Lints and fixes files
 ```
 npm run lint
